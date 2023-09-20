@@ -1,36 +1,57 @@
 import React from "react";
 import VMC from "./inc/Vmc";
+import photoLinda from "../images/AboutFoto.png";
 
 function Aboutus() {
   return (
     <div>
-      <section className="py-4 bg-info">
+      <section className="py-4 bg-success">
         <div className="container">
-          <div className="row"> 
+          <div className="row">
             <div className="col-md-4 my-auto">
-              <h4>About ut</h4>
+              <h4>About</h4>
             </div>
             <div className="col-md-8 my-auto">
-              <h6 className="float-end">Home / About ut</h6>
+              <h6 className="float-end">Home / About</h6>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="section bg-c-light border-bottom">
-        <div className="container">
-            <h5 className="main-heading">Our company</h5>
-            <div className="underline"></div>
+      <section className="section mt-5">
+        <div className="container d-flex flex-column">
+          <h5 className="main-heading">Qui suis-je ?</h5>
+          <div className="underline"></div>
+          <div>
+            <img className="w-25 float-end mx-5" src={photoLinda}></img>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit, dapibus parturient imperdiet metus risus facilisis egestas maecenas,
+              Dirigeante et fondatrice de l’entreprise Reactiserv, dont
+              l’activité a débuté en septembre 2022. Après une licence en
+              langues étrangères appliquées anglais/espagnol, ainsi qu’un master
+              recherche Etudes Européennes et Relations Internationales, je me
+              suis engagée dans l’assistanat administratif et commercial dans
+              des PME principalement.
             </p>
+
+            <p>
+              Mes neufs années au sein du salariat dans les métiers de
+              l’assistanat commercial et administratif à la fois sur le marché
+              français et international, également en tant que commercial
+              sédentaire dans le secteur du b to b et b to c, m’ont permis de
+              développer des compétences et m’ont guidé vers l’entrepreunariat.
+            </p>
+
+            <p>
+              J’ai pu suivre les commerciaux dans leurs activités en les
+              accompagnant dans leur processus de ventes, ainsi que dans
+              l’utilisation du CRM. (Hubspot, Sage, Salesforce, Odoo){" "}
+            </p>
+          </div>
         </div>
       </section>
 
-            {/* Our Vision, mission and value*/}
-            <VMC />
-
-
+      {/* Our Vision, mission and value*/}
+      {/*  <VMC /> */}
     </div>
   );
 }

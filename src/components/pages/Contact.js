@@ -3,7 +3,7 @@ import React from "react";
 function Contactus() {
   return (
     <div>
-      <section className="py-4 bg-info">
+      <section className="py-4 mb-5 bg-success">
         <div className="container">
           <div className="row">
             <div className="col-md-4 my-auto">

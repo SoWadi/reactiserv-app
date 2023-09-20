@@ -11,10 +11,11 @@ import Footer from "./components/inc/Footer";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="d-flex flex-column min-vh-100">
         {/* Place your Navbar component outside of the Routes */}
         <Navbar />
         
+        <main className="flex-grow-1">
         <Routes>
 
           <Route exact path="/" 
@@ -29,7 +30,7 @@ function App() {
           <Route path="/contact" 
           element={<Contact />} />
         </Routes>
-
+</main>
         <Footer/>
       </div>
 
