@@ -1,6 +1,7 @@
 import React from "react";
 import VMC from "./inc/Vmc";
 import photoLinda from "../images/AboutFoto.png";
+import { Link } from "react-router-dom";
 
 function Aboutus() {
   return (
@@ -8,11 +9,15 @@ function Aboutus() {
       <section className="py-4 bg-success">
         <div className="container">
           <div className="row">
-            <div className="col-md-4 my-auto">
+            <div className="col-lg-6 col-md-4 my-auto">
               <h4>About</h4>
             </div>
-            <div className="col-md-8 my-auto">
-              <h6 className="float-end">Home / About</h6>
+            <div className="col-lg-6 col-md-8 my-auto">
+              <h6 className="float-end">
+              <Link to="/home" className="text-dark">
+                {" "}
+                Home / 
+              </Link>{" "}About</h6>
             </div>
           </div>
         </div>

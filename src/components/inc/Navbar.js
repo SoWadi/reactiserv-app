@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import LogoNav from "../images/LogoReactiserv.png";
+import { NavDropdown } from "react-bootstrap";
 
 function Navbar() {
   return (
@@ -31,6 +32,28 @@ function Navbar() {
                 Home
               </Link>
             </li>
+
+            <NavDropdown title="Services" id="basic-nav-dropdown">
+              <NavDropdown.Item >
+                <Link to="/service1" className="nav-link active">
+                  Stratégie commerciale
+                </Link>
+              </NavDropdown.Item>
+              
+              <NavDropdown.Item>
+                <Link to="/serviceAdm" className="nav-link active">
+                Assistanat administratif
+                </Link>
+              </NavDropdown.Item>
+
+              <NavDropdown.Item href="#service2">
+              <Link to="/atelierProsp" className="nav-link active">
+              Atelier prospection commerciale
+                </Link>
+                </NavDropdown.Item>
+              {/* <NavDropdown.Divider /> */}
+            </NavDropdown>
+
             <li className="nav-item">
               <Link to="/about" className="nav-link active">
                 About
@@ -41,8 +64,6 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-
-            
           </ul>
         </div>
       </div>

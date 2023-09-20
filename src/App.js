@@ -4,9 +4,12 @@ import Navbar from "./components/inc/Navbar";
 import Home from "./components/pages/Home"
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
+import ServiceX from "./components/pages/services/service1"
+import ServiceAdministratif from "./components/pages/services/serviceAdm"
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/inc/Footer";
+import Atelier from "./components/pages/services/atelierProspection";
 
 function App() {
   return (
@@ -29,6 +32,18 @@ function App() {
 
           <Route path="/contact" 
           element={<Contact />} />
+ 
+
+          <Route path="/service1" 
+          element={<ServiceX />} />
+
+          <Route path="/serviceAdm" 
+          element={<ServiceAdministratif />} />
+
+          <Route path="/atelierProsp" 
+          element={<Atelier />} />
+
+
         </Routes>
 </main>
         <Footer/>

@@ -1,6 +1,7 @@
     import React from "react";
     import Slide1 from "../images/Slide1.jpeg"
     import Slide2 from "../images/Slider2.jpg"
+    import Portada from "../images/mains-fille.jpg"
 
     function Slider() {
     return (
@@ -12,7 +13,7 @@
         </div>
         <div className="carousel-inner">
             <div className="carousel-item active">
-            <img src={Slide1} className="d-block w-100" alt="First slide" />
+            <img src={Portada} className="d-block w-100" alt="First slide" />
             <div className="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Contactus() {
   return (
@@ -7,10 +8,14 @@ function Contactus() {
         <div className="container">
           <div className="row">
             <div className="col-md-4 my-auto">
-              <h4>Contact ut</h4>
+              <h4>Contact</h4>
             </div>
             <div className="col-md-8 my-auto">
-              <h6 className="float-end">Home / Contact us</h6>
+              <h6 className="float-end">
+              <Link to="/home" className="text-dark">
+                {" "}
+                Home / 
+              </Link>{" "}Contact</h6>
             </div>
           </div>
         </div>
@@ -41,7 +46,7 @@ function Contactus() {
                         <textarea rows="3" className="form-control"></textarea>
                     </div>
                     <div className="form-group">
-                        <button  type="button" className="btn btn-primary shadow w-100 py-3">Send Message</button>
+                        <button  type="button" className="btn btn-success shadow w-100 py-3">Send Message</button>
                     </div>
                 </div>
                 <div className="col-md-6 border-start">

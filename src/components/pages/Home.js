@@ -12,8 +12,11 @@ function Home() {
       <section className="section">
         <div className="container">
           <div className="row">
-            <div className="col-md-12 text-center">
-              <h3 className="main-heading">Our company</h3>
+            <div className="col-md-12 text-center mt-5">
+              <h3 className="main-heading">
+                {" "}
+                Simplifier vos opérations commerciales.
+              </h3>
               <div className="underline mx-auto"></div>
               <p>
                 How to Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
@@ -22,7 +25,7 @@ function Home() {
                 can also add options to the lorem command with an underscore
                 character followed by the option name.
               </p>
-              <Link to="/about" className="btn btn-warning shadow">
+              <Link to="/about" className="btn btn-success w-25 shadow my-5">
                 {" "}
                 Read more
               </Link>{" "}
@@ -31,18 +34,19 @@ function Home() {
         </div>
       </section>
       {/* Our Vision, mission and value*/}
-      <VMC />
+      {/* <VMC /> */}
 
       {/* Our services */}
       <section className="section border-top-c">
         <div className="container">
           <div className="row">
-            <div className="col-md-12 mb-4 text-center">
-              <h3 className="main-heading">Our services</h3>
+            <div className="col-md-12 mb-4 text-center mt-5">
+              <h3 className="main-heading">Services</h3>
               <div className="underline mx-auto"></div>
             </div>
 
-            <div className="col-md-4">
+            <div className="Cards d-flex flex-row">
+            <div className="col-md-4 cardCustom align-self-start">
               <div className="card shadow">
                 <img
                   src={Service1}
@@ -51,20 +55,20 @@ function Home() {
                 />
                 <div className="card-body">
                   <div className="card-body">
-                    <h6>Service1</h6>
+                    <h6>Accompagnement sur la stratégie commerciale</h6>
                     <div className="underline"></div>
                     <p>
                       Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
                       then press the Ctrl-Shift-L keyboard
                     </p>
                   </div>
-                  <Link to="/services" className="btn btn-link">
+                  <Link to="/service1" className="btn btn-link">
                     read more{" "}
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 cardCustom align-self-center">
               <div className="card shadow">
                 <img
                   src={Service1}
@@ -73,20 +77,20 @@ function Home() {
                 />
                 <div className="card-body">
                   <div className="card-body">
-                    <h6>Service1</h6>
+                    <h6>Gestion administrative</h6>
                     <div className="underline"></div>
                     <p>
                       Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
                       then press the Ctrl-Shift-L keyboard
                     </p>
                   </div>
-                  <Link to="/services" className="btn btn-link">
+                  <Link to="/serviceAdm" className="btn btn-link">
                     read more{" "}
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 cardCustom align-self-end">
               <div className="card shadow">
                 <img
                   src={Service1}
@@ -95,25 +99,26 @@ function Home() {
                 />
                 <div className="card-body">
                   <div className="card-body">
-                    <h6>Service1</h6>
+                    <h6>Atelier prospection commerciale</h6>
                     <div className="underline"></div>
                     <p>
                       Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
                       then press the Ctrl-Shift-L keyboard
                     </p>
                   </div>
-                  <Link to="/services" className="btn btn-link">
+                  <Link to="/atelierProsp" className="btn btn-link">
                     read more{" "}
                   </Link>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>
       </section>
     </div>
   );
-} 
+}
 
 export default Home;
 
