@@ -6,7 +6,11 @@ import {
   faTwitter,
   faInstagram,
   faLinkedinIn,
+  faBilibili,
+  faWhatsapp,
+
 } from "@fortawesome/free-brands-svg-icons";
+import { faAt, faEnvelopeCircleCheck, faEnvelopeOpenText, faEnvelopesBulk, faMailReply } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
@@ -40,22 +44,23 @@ function Footer() {
             <h6>Informations de contact</h6>
             <hr />
             <div>
-              <p className="text-white mb-1"> 07 88 13 33 03</p>
+              <p className="text-white mb-1">
+                <span className="px-3"><FontAwesomeIcon icon={faWhatsapp} /></span> 07 88 13 33 03</p>         
             </div>
             <div>
-              <p className="text-white mb-1">l.avlessi@reacti-serv.com</p>
+              <p className="text-white mb-1">
+                <span className="px-3"><FontAwesomeIcon icon={faAt} /></span>
+                l.avlessi@reacti-serv.com</p>
             </div>
             <div className="col-md-12">
-            
+
+              <hr className="w-25"/>
               <div className="social-icons">
-                <a href="#">
-                  <FontAwesomeIcon icon={faInstagram} className="mr-3 mx-3"/>
-                </a>
-                <a href="#">
-                  <FontAwesomeIcon icon={faFacebook} className="mr-3 mx-3" />
-                </a>
                 <a href="https://www.linkedin.com/company/reactiserv/">
                   <FontAwesomeIcon icon={faLinkedinIn} className="mr-3 mx-3" />
+                </a>
+                <a href="#">
+                  <FontAwesomeIcon icon={faInstagram} className="mr-3 mx-3"/>
                 </a>
               </div>
             </div>

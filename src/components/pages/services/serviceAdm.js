@@ -24,10 +24,6 @@ function ServiceAdm() {
           <div className="w-75">
             {/*             <img className="w-25 float-end mx-5" src={photoLinda}></img> */}
 
-            <p>Administration des ventes France & Export</p>
-            <p>Saisie des commandes clients sur ERP </p>
-            <p>Relances de factures impayées</p>
-            <p>Rédaction de courriers</p>
 
 
 

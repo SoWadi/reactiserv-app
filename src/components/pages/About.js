@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Aboutus() {
   return (
     <div>
-      <section className="py-4 bg-success">
+      <section className="py-4">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-4 my-auto">

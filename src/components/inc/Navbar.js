@@ -5,7 +5,7 @@ import { NavDropdown } from "react-bootstrap";
 
 function Navbar() {
   return (
-    <nav className="navbar-dark navbar-expand-lg bg-dark shadow">
+    <nav className="navbar navbar-expand-lg mb-1">
       <div className="container containerNav">
         {/*                     <a className="" href="/">Navbar</a> */}
         <div>
@@ -33,7 +33,7 @@ function Navbar() {
               </Link>
             </li>
 
-            <NavDropdown title="Services" id="basic-nav-dropdown">
+            <NavDropdown className="border border-0 " title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item >
                 <Link to="/service1" className="nav-link active">
                   Stratégie commerciale

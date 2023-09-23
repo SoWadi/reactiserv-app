@@ -3,33 +3,50 @@ import Slider from "../inc/Slider";
 import { Link } from "react-router-dom";
 import VMC from "./inc/Vmc";
 import Service1 from "../images/Slider2.jpg";
+import PhotoHome from "../images/AboutFoto2.png";
 
 function Home() {
   return (
     <div>
-      <Slider />
+      {/*  <Slider /> */}
 
-      <section className="section">
+ {/*      <div className="divAnimation"></div> */}
+
+      <section className="section mb-5 divAnimation">
         <div className="container">
           <div className="row">
-            <div className="col-md-12 text-center mt-5">
-              <h3 className="main-heading">
-                {" "}
-                Simplifier vos opérations commerciales.
-              </h3>
-              <div className="underline mx-auto"></div>
-              <p>
-                How to Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
-                then press the Ctrl-Shift-L keyboard shortcut. The default
-                keyboard shortcut is the same for all supported platforms. You
-                can also add options to the lorem command with an underscore
-                character followed by the option name.
-              </p>
-              <Link to="/about" className="btn btn-success w-25 shadow my-5">
+    
+
+          
+
+          <div className="col-md-6 pb-5 my-auto  text-center">
+            <h2 className="main-heading">
+              {" "}
+              Linda Tadjer
+              <hr className="w-25 mx-auto" />
+            </h2>
+            <h1>
+              Office manager & Commerciale indépendante
+              {/* Simplifier vos opérations commerciales. */}
+            </h1>
+            <div className="underline mx-auto"></div>
+            <p>Seul on va plus vite, ensemble on va plus loin.</p>
+            {/*            <Link to="/about" className="btn btn-success w-25 shadow my-5">
                 {" "}
                 Read more
-              </Link>{" "}
-            </div>
+              </Link>{" "} */}
+            <a
+              className="my-auto py-2 px-4 my-5 enSavoirPlusBtn"
+              href="#more-services"
+            >
+              {" "}
+              En savoir plus
+            </a>{" "}
+          </div>
+          {/* FOTO ABOUT/HOME */}
+          <div className="col-md-6 my-5">
+            <img className="w-100" src={PhotoHome} />
+          </div>
           </div>
         </div>
       </section>
@@ -37,7 +54,8 @@ function Home() {
       {/* <VMC /> */}
 
       {/* Our services */}
-      <section className="section border-top-c">
+      <section className="section border-top-c mb-5">
+        <h4 id="more-services"></h4>
         <div className="container">
           <div className="row">
             <div className="col-md-12 mb-4 text-center mt-5">
@@ -46,72 +64,72 @@ function Home() {
             </div>
 
             <div className="Cards d-flex flex-row">
-            <div className="col-md-4 cardCustom align-self-start">
-              <div className="card shadow">
-                <img
-                  src={Service1}
-                  className="w-100 border-bottom-c"
-                  alt="Services"
-                />
-                <div className="card-body">
+              <div className="col-md-4 p-3 cardCustom align-self-start zoomCards">
+                <div className="card shadow">
+                  <img
+                    src={Service1}
+                    className="w-100 border-bottom-c"
+                    alt="Services"
+                  />
                   <div className="card-body">
-                    <h6>Accompagnement sur la stratégie commerciale</h6>
-                    <div className="underline"></div>
-                    <p>
-                      Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
-                      then press the Ctrl-Shift-L keyboard
-                    </p>
+                    <div className="card-body">
+                      <h6>Accompagnement sur la stratégie commerciale</h6>
+                      <div className="underline"></div>
+                      <p>
+                        Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
+                        then press the Ctrl-Shift-L keyboard
+                      </p>
+                    </div>
+                    <Link to="/service1" className="btn btn-link">
+                      read more{" "}
+                    </Link>
                   </div>
-                  <Link to="/service1" className="btn btn-link">
-                    read more{" "}
-                  </Link>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4 cardCustom align-self-center">
-              <div className="card shadow">
-                <img
-                  src={Service1}
-                  className="w-100 border-bottom-c"
-                  alt="Services"
-                />
-                <div className="card-body">
+              <div className="col-md-4 cardCustom align-self-center zoomCards">
+                <div className="card shadow">
+                  <img
+                    src={Service1}
+                    className="w-100 border-bottom-c"
+                    alt="Services"
+                  />
                   <div className="card-body">
-                    <h6>Gestion administrative</h6>
-                    <div className="underline"></div>
-                    <p>
-                      Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
-                      then press the Ctrl-Shift-L keyboard
-                    </p>
+                    <div className="card-body">
+                      <h6>Gestion administrative</h6>
+                      <div className="underline"></div>
+                      <p>
+                        Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
+                        then press the Ctrl-Shift-L keyboard
+                      </p>
+                    </div>
+                    <Link to="/serviceAdm" className="btn btn-link">
+                      read more{" "}
+                    </Link>
                   </div>
-                  <Link to="/serviceAdm" className="btn btn-link">
-                    read more{" "}
-                  </Link>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4 cardCustom align-self-end">
-              <div className="card shadow">
-                <img
-                  src={Service1}
-                  className="w-100 border-bottom-c"
-                  alt="Services"
-                />
-                <div className="card-body">
+              <div className="col-md-4 cardCustom align-self-end zoomCards">
+                <div className="card shadow">
+                  <img
+                    src={Service1}
+                    className="w-100 border-bottom-c"
+                    alt="Services"
+                  />
                   <div className="card-body">
-                    <h6>Atelier prospection commerciale</h6>
-                    <div className="underline"></div>
-                    <p>
-                      Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
-                      then press the Ctrl-Shift-L keyboard
-                    </p>
+                    <div className="card-body">
+                      <h6>Atelier prospection commerciale</h6>
+                      <div className="underline"></div>
+                      <p>
+                        Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
+                        then press the Ctrl-Shift-L keyboard
+                      </p>
+                    </div>
+                    <Link to="/atelierProsp" className="btn btn-link">
+                      read more{" "}
+                    </Link>
                   </div>
-                  <Link to="/atelierProsp" className="btn btn-link">
-                    read more{" "}
-                  </Link>
                 </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
