@@ -22,11 +22,11 @@ function Contactus() {
       </section>
 
       <section className="section">
-        <div className="container">
+        <div className="container w-75">
           <div className="card shadow">
             <div className="card-body">
               <div className="row">
-                <div className="col-md-6 border-right">
+                {/* <div className="col-md-6 border-right">
                     <h6>Contact Form</h6>
                     <hr/>
                     <div className="form-group">
@@ -48,8 +48,8 @@ function Contactus() {
                     <div className="form-group">
                         <button  type="button" className="btn btn-success shadow w-100 py-3">Send Message</button>
                     </div>
-                </div>
-                <div className="col-md-6 border-start">
+                </div> */}
+                <div className="col-md-12">
                     <h6>Adress Information:</h6>
                     <div className="underline"></div>
                     <p>
