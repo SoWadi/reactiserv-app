@@ -1,0 +1,77 @@
+
+  
+  .h1-contact {
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(8, 112, 43);
+  }
+  
+  .contact-form {
+    margin: 3rem auto 0;
+    max-width: 30%;
+    padding: 0rem 2rem 0.8rem;
+    background-color: rgba(255, 255, 255, 0.753);
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .input-contact {
+    border-radius: 6px;
+    border: 1px solid green;
+    margin-bottom: 1rem;
+    width: 15rem;
+    margin-inline: auto;
+  }
+
+  .input-contact::placeholder,
+  textarea::placeholder {
+    text-align: center;
+    height: 75%;
+  }
+  
+  .label-contact {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  
+  .select-contact{
+    width: fit-content;
+    margin-inline: auto;
+  }
+
+  .select-contact,
+  .message-contact {
+    border-radius: 6px;
+    border: 1px solid green;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .button-contact {
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(12, 128, 45);
+    margin: 1rem 3rem 0 3rem;
+  }
+  
+  .button-contact:hover {
+    background-color: rgb(159, 193, 159);
+  }
+  
+  #c-yup {
+    color: tomato;
+    text-align: center;
+  }
+  
+  #c-yup:before {
+    display: inline;
+    content: '⚠';
+  }
+  

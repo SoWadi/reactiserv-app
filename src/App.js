@@ -34,7 +34,7 @@ function App() {
           element={<Contact />} />
  
 
-          <Route path="/service1" 
+          <Route path="/strategie-commerciale" 
           element={<ServiceX />} />
 
           <Route path="/serviceAdm" 

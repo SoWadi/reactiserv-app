@@ -1,0 +1,25 @@
+
+.aboutLindaPhoto {
+    width: 70%;
+    border-radius: 322px;
+    border: 0.2px solid rgba(12, 11, 11, 0.077);
+    
+  }
+
+
+.divAnimationAbout {
+    /*   width: 100px;
+      height: 100px; */
+
+    /*   background: rgba(1, 119, 66, 0.057);
+     */  position: relative;
+      animation: mymove2 3s;
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes mymove2 {
+      from {right: -150px;}
+      to {right: 10px; background-color: rgba(18, 18, 144, 0);}
+
+    }
+    

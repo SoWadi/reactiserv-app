@@ -1,8 +1,6 @@
-
-
 p {
   font-size: 16px;
-/*   color: rgb(11, 29, 11); */
+  /*   color: rgb(11, 29, 11); */
 }
 
 /* -------------------------------------- NAVBAR ---------------------------------------*/
@@ -39,37 +37,46 @@ a.dropdown-item:hover {
 /* -------------------------------------- ANIMATION WELCOMING PAGE ---------------------------------------*/
 
 .divAnimation {
-/*   width: 100px;
+  /*   width: 100px;
   height: 100px; */
-  background: rgb(1, 119, 66);
+  height: 50vh;
+  padding: 2em;
+  /*   background: rgba(1, 119, 66, 0.057);
+ */
   position: relative;
   animation: mymove 3s;
   animation-fill-mode: forwards;
 }
 
 @keyframes mymove {
-  from {bottom: -110px;}
-  to {bottom: -30px; background-color: rgba(0, 0, 255, 0);}
+  from {
+    bottom: -200px;
+  }
+
+  to {
+    bottom: -30px;
+    background-color: rgba(0, 0, 255, 0);
+  }
 }
 
- .enSavoirPlusBtn{
+.enSavoirPlusBtn {
   box-shadow: 10px 10px;
   background: green;
   color: #162029ed;
-  
+
 }
 
 .enSavoirPlusBtn:hover {
   background-color: rgb(126, 207, 169);
 }
 
-.carousel-control-next-icon, 
+.carousel-control-next-icon,
 .carousel-control-prev-icon {
 
   height: 17em;
 }
 
-.main-heading{
+.main-heading {
   color: rgb(47, 125, 77);
   /* font-size: 26px; */
 }
@@ -78,7 +85,7 @@ a.dropdown-item:hover {
   margin-top: -9rem;
 } */
 
-.underline{
+.underline {
   height: 4px;
   width: 4rem;
   background-color: rgb(72, 181, 114);
@@ -92,18 +99,21 @@ a.dropdown-item:hover {
 } */
 
 .Cards {
-/*  border:2px solid rgb(193, 193, 11); */
- height: 75vh;
+  /*  border:2px solid rgb(193, 193, 11); */
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
 
 
 }
 
 .Cards .cardCustom {
   padding: 15px;
-  width:27vw;
+  /* width: 27vw; */
 
-/*   margin-inline: 1em; */
+  /*   margin-inline: 1em; */
 }
+
 .cardCustom .card {
   background-color: rgb(255, 255, 255);
 
@@ -113,14 +123,16 @@ a.dropdown-item:hover {
 
 .zoomCards {
   padding: 50px;
-  transition: transform .2s; /* Animation */
-/*   width: 200px;
+  transition: transform .2s;
+  /* Animation */
+  /*   width: 200px;
   height: 200px; */
   margin: 0 auto;
 }
 
 .zoomCards:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   z-index: 1;
 }
 
@@ -140,20 +152,38 @@ a.dropdown-item:hover {
   color: #fff;
   text-decoration: none !important;
 }
+
 .footer a:hover {
-  color:grey;
+  color: grey;
 }
 
-article {
- /*  border: 1px solid rgba(250, 128, 114, 0.064); */
 
-/*   width: 250px; */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
-  text-align: center;
-  margin-top: 12px;
-}
 
- .articlesStrategieCommerciale{
-  margin: auto;
-  width: 60vw;
+/****************************************************************** 
+ *------------------------ MEDIA QUERY ---------------------------*
+******************************************************************/
+
+
+@media (max-width: 760px) {
+  .Cards {
+    display: block;
+    width: 60vw;
+    height: 200vh;
+    margin-bottom: 2em;
+  }
+
+  .cardCustom {
+/*     display: flex; */
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+    .cardCustom>.card {
+      width: 100%;
+      padding: 2%; 
+
+  }
+
+
 }

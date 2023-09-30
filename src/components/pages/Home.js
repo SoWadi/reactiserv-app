@@ -1,4 +1,5 @@
 import React from "react";
+import './animatedSquare.css';
 import Slider from "../inc/Slider";
 import { Link } from "react-router-dom";
 import VMC from "./inc/Vmc";
@@ -10,46 +11,57 @@ function Home() {
     <div>
       {/*  <Slider /> */}
 
- {/*      <div className="divAnimation"></div> */}
+      {/*      <div className="divAnimation"></div> */}
 
-      <section className="section mb-5 divAnimation">
+      <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+
+      <section className="section my-5 divAnimation">
         <div className="container">
           <div className="row">
-    
-
-          
-
-          <div className="col-md-6 pb-5 my-auto  text-center">
-            <h2 className="main-heading">
-              {" "}
-              Linda Tadjer
-              <hr className="w-25 mx-auto" />
-            </h2>
-            <h1>
-              Office manager & Commerciale indépendante
-              {/* Simplifier vos opérations commerciales. */}
-            </h1>
-            <div className="underline mx-auto"></div>
-            <p>Seul on va plus vite, ensemble on va plus loin.</p>
-            {/*            <Link to="/about" className="btn btn-success w-25 shadow my-5">
+            <div className="col-md-12 pb-5 my-auto  text-center">
+              <h2 className="main-heading">
+                {" "}
+                Linda Tadjer
+                <hr className="w-25 mx-auto" />
+              </h2>
+              <h1>
+                Office manager & Commerciale indépendante
+                {/* Simplifier vos opérations commerciales. */}
+              </h1>
+              <div className="underline mx-auto"></div>
+              <p>Seul on va plus vite, ensemble on va plus loin.</p>
+              {/*            <Link to="/about" className="btn btn-success w-25 shadow my-5">
                 {" "}
                 Read more
               </Link>{" "} */}
-            <a
-              className="my-auto py-2 px-4 my-5 enSavoirPlusBtn"
-              href="#more-services"
-            >
-              {" "}
-              En savoir plus
-            </a>{" "}
-          </div>
-          {/* FOTO ABOUT/HOME */}
-          <div className="col-md-6 my-5">
+              <a
+                className="my-auto py-2 px-4 my-5 enSavoirPlusBtn"
+                href="#more-services"
+              >
+                {" "}
+                En savoir plus
+              </a>{" "}
+            </div>
+            {/* FOTO ABOUT/HOME */}
+            {/*           <div className="col-md-6 my-5">
             <img className="w-100" src={PhotoHome} />
-          </div>
+          </div> */}
           </div>
         </div>
       </section>
+      </div>
       {/* Our Vision, mission and value*/}
       {/* <VMC /> */}
 
@@ -63,7 +75,7 @@ function Home() {
               <div className="underline mx-auto"></div>
             </div>
 
-            <div className="Cards d-flex flex-row">
+            <div className="Cards">
               <div className="col-md-4 p-3 cardCustom align-self-start zoomCards">
                 <div className="card shadow">
                   <img
@@ -80,7 +92,7 @@ function Home() {
                         then press the Ctrl-Shift-L keyboard
                       </p>
                     </div>
-                    <Link to="/service1" className="btn btn-link">
+                    <Link to="/strategie-commerciale" className="btn btn-link">
                       read more{" "}
                     </Link>
                   </div>
@@ -135,6 +147,7 @@ function Home() {
         </div>
       </section>
     </div>
+    
   );
 }
 

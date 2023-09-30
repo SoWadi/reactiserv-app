@@ -14,7 +14,7 @@ import { faAt, faEnvelopeCircleCheck, faEnvelopeOpenText, faEnvelopesBulk, faMai
 
 function Footer() {
   return (
-    <section className="section footer bg-dark text-white mt-5 py-4">
+    <section className="section footer bg-dark text-white py-4">
       <div className="container">
         <div className="row">
           <div className="col-md-4 px-5">

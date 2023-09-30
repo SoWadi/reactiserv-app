@@ -35,7 +35,7 @@ function Navbar() {
 
             <NavDropdown className="border border-0 " title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item >
-                <Link to="/service1" className="nav-link active">
+                <Link to="/strategie-commerciale" className="nav-link active">
                   Stratégie commerciale
                 </Link>
               </NavDropdown.Item>

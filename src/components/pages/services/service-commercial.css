@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif
+}
+body
+{
+    min-width: 100vw;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #16384c;
+} */
+
+
+
+article {
+    /*  border: 1px solid rgba(250, 128, 114, 0.064); */
+   
+   /*   width: 250px; */
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+     text-align: start;
+     margin-top: 12px;
+   }
+   
+    .articlesStrategieCommerciale{
+    
+    border: 1px solid rgba(2, 108, 2, 0.138);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(240, 255, 243, 0.478);
+    border-radius: 12px;
+    margin: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+ 
+   }
+   
+
+   
+   .list-group-item {
+     background: none;
+   }
+   
+
+   
+.containerStrategieCommerciale {
+/*     border: 1px solid salmon; */
+    display: flex;
+  flex-wrap: wrap;
+  background: #f0fff700;
+  border-radius: 22px;
+  margin-block: 3em;
+
+/*   box-shadow: 0 5px 20px rgba(0,0,0,0.1); */
+}
+
+
+.containerStrategieCommerciale .card
+{
+
+    /* max-width: 300px; */
+    margin: auto;
+    margin-block: 20px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+    height: 100px;
+}
+.container .card:hover
+{
+    height: 400px;
+}
+.container .card .titleContainer
+{
+    position: relative;
+    width:250px;
+    height:250px;
+    top:-50px;
+    left:10px;
+    margin: -0.5rem;
+/*     box-shadow: 0 5px 20px rgba(0,0,0,0.2); */
+}
+.container .card h4
+{
+    position: relative;
+    width: 166%;
+    height: auto;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    /* box-shadow: 0 5px 20px rgba(0,0,0,0.2); */
+    background-color: rgba(152, 207, 179, 0.94);
+
+    box-shadow: 10px 10px;
+    
+  }
+
+
+
+.container .card .titleContainer img
+{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container .card .content
+{
+    position: relative;
+/*     margin-top: -140px; */
+    padding: 10px 15px;
+    text-align: center;
+    color:#111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -140px;
+    transition-delay: 0.1s;
+}
+
+@media (max-width: 330px){
+    .container .card .titleContainer{
+        left: -2px;
+    }
+
+    
+}
