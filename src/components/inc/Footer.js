@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import LogoNav from "../images/LogoReactiserv.png";
 import {
   faFacebook,
   faTwitter,
@@ -15,16 +16,15 @@ import { faAt, faEnvelopeCircleCheck, faEnvelopeOpenText, faEnvelopesBulk, faMai
 function Footer() {
   return (
     <section className="section footer bg-dark text-white py-4">
+      <hr></hr>
       <div className="container">
         <div className="row">
-          <div className="col-md-4 px-5">
-            <h6>À propos</h6>
-            <hr />
-            <p className="text-white">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit, dapibus
-              parturient imperdiet metus risus facilisis egestas maecenas,
-              laoreet inceptos bibendum lobortis fames duis.
-            </p>
+          <div className="col-md-4 px-5">            
+            <div>
+          <Link to="/" className="">
+            <img className="LogoNav mt-4" src={LogoNav} alt="Reactiserv"></img>
+          </Link>
+        </div>
           </div>
           <div className="col-md-4 px-5">
             <h6>Accès rapides</h6>

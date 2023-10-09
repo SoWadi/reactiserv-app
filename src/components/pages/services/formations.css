@@ -1,0 +1,27 @@
+
+  .tarifContainer {
+    background-color: #017d58;
+    width: 25px;
+    padding: 12px;
+  }
+
+  table *{
+    width: fit-content;
+    text-align: center;
+  }
+  
+  
+  tr td:first-child{
+
+    width: 2em;
+  }
+
+  tr:nth-child(even) {
+    /* Vos styles pour les lignes paires ici */
+    background-color: fuchsia;
+  }
+  
+
+  .accordionButtonCustom {
+    background-color: fuchsia;
+  }

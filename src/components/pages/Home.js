@@ -13,7 +13,7 @@ function Home() {
 
       {/*      <div className="divAnimation"></div> */}
 
-      <div class="area" >
+      <div class="areaHome" >
             <ul class="circles">
                     <li></li>
                     <li></li>
@@ -27,10 +27,10 @@ function Home() {
                     <li></li>
             </ul>
 
-      <section className="section my-5 divAnimation">
+      <section className="section my-5 divAnimation text-white">
         <div className="container">
           <div className="row">
-            <div className="col-md-12 pb-5 my-auto  text-center">
+            <div className="col-md-12 pb-5 my-auto text-center d-flex flex-column">
               <h2 className="main-heading">
                 {" "}
                 Linda Tadjer
@@ -41,13 +41,13 @@ function Home() {
                 {/* Simplifier vos opérations commerciales. */}
               </h1>
               <div className="underline mx-auto"></div>
-              <p>Seul on va plus vite, ensemble on va plus loin.</p>
+              <p className=" p-4">Seul on va plus vite, ensemble on va plus loin.</p>
               {/*            <Link to="/about" className="btn btn-success w-25 shadow my-5">
                 {" "}
                 Read more
               </Link>{" "} */}
               <a
-                className="my-auto py-2 px-4 my-5 enSavoirPlusBtn"
+                className="my-auto mx-auto py-2 px-4 my-5 enSavoirPlusBtn"
                 href="#more-services"
               >
                 {" "}
@@ -83,19 +83,18 @@ function Home() {
                     className="w-100 border-bottom-c"
                     alt="Services"
                   />
-                  <div className="card-body">
+
                     <div className="card-body">
                       <h6>Accompagnement sur la stratégie commerciale</h6>
                       <div className="underline"></div>
                       <p>
-                        Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
-                        then press the Ctrl-Shift-L keyboard
+                      Optimisez vos résultats avec notre accompagnement sur la stratégie commerciale, pour une croissance efficace de votre entreprise.
                       </p>
                     </div>
-                    <Link to="/strategie-commerciale" className="btn btn-link">
-                      read more{" "}
+                    <Link to="/strategie-commerciale" className="btn btn-link text-start">
+                      En savoir plus{" "}
                     </Link>
-                  </div>
+          
                 </div>
               </div>
               <div className="col-md-4 cardCustom align-self-center zoomCards">
@@ -105,19 +104,18 @@ function Home() {
                     className="w-100 border-bottom-c"
                     alt="Services"
                   />
-                  <div className="card-body">
+ 
                     <div className="card-body">
                       <h6>Gestion administrative</h6>
                       <div className="underline"></div>
                       <p>
-                        Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
-                        then press the Ctrl-Shift-L keyboard
+                      Optimisez votre organisation grâce à notre service de gestion administrative sur mesure, pour une gestion plus fluide de votre entreprise.
                       </p>
                     </div>
-                    <Link to="/serviceAdm" className="btn btn-link">
-                      read more{" "}
+                    <Link to="/serviceAdm" className="btn btn-link text-start">
+                    En savoir plus{" "}
                     </Link>
-                  </div>
+           
                 </div>
               </div>
               <div className="col-md-4 cardCustom align-self-end zoomCards">
@@ -127,19 +125,18 @@ function Home() {
                     className="w-100 border-bottom-c"
                     alt="Services"
                   />
-                  <div className="card-body">
+
                     <div className="card-body">
-                      <h6>Atelier prospection commerciale</h6>
+                      <h6>Atelier formation commerciale</h6>
                       <div className="underline"></div>
                       <p>
-                        Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem
-                        then press the Ctrl-Shift-L keyboard
+                      Maximisez vos compétences de vente pour augmenter la performance de votre équipe et stimuler la croissance.
                       </p>
                     </div>
-                    <Link to="/atelierProsp" className="btn btn-link">
-                      read more{" "}
+                    <Link to="/atelierProsp" className="btn btn-link text-start">
+                    En savoir plus{" "}
                     </Link>
-                  </div>
+              
                 </div>
               </div>
             </div>

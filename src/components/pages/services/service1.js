@@ -9,7 +9,7 @@ function service1() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-4 my-auto">
-              <h6>Accompagnement sur la stratégie commerciale</h6>
+              <h4>Accompagnement sur la stratégie commerciale</h4>
             </div>
             <div className="col-lg-6 col-md-8 my-auto">
               <h6 className="float-end">Home / Stratégie commerciale</h6>
@@ -48,7 +48,7 @@ function service1() {
           <div className="row ">
             {" "}
             {/* d-flex align-items-center justify-content-center position-relative flex-wrap */}
-            <div class="card d-flex position-relative flex-column col-12 col-md-12 col-lg-5 mx-auto cardCustom">
+            <div class="card d-flex position-relative flex-column col-12 col-md-12 col-lg-5 mx-auto">
               <div class="titleContainer">
                 {/* <img src="https://images.pexels.com/photos/1456268/pexels-photo-1456268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" /> */}
                 <h4 className="mt-5 p-2">

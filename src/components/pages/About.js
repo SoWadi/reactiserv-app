@@ -1,5 +1,5 @@
 import React from "react";
-import '../pages/About.css'
+import "../pages/About.css";
 import photoLinda from "../images/AboutFoto2-removebg-preview.png";
 
 import { Link } from "react-router-dom";
@@ -39,8 +39,43 @@ function Aboutus() {
                 ></img>
               </div>
 
-              <div className="col-12 col-md-6 my-5 p-auto">
+              <div className="col-12 col-md-6 my-5 p-auto text-white presentation">
                 <p>
+                  Linda Tadjer, gérante de l’entreprise REACTISERV, dont
+                  l’activité a débuté en septembre 2022 après une expérience de
+                  huit années dans le salariat en tant qu’assistante ADV Export,
+                  et commerciale sédentaire BtoB/BtoC. </p>
+                  <p>
+                  Mes études en langues
+                  étrangères me permettent aujourd’hui de travailler pour des
+                  entreprises étant implantées sur le marché international, ou
+                  souhaitant se développer en ce sens. Je pratique l’anglais,
+                  l’espagnol et l’italien. </p>
+                  <p>
+                  Mon objectif premier est de soulager
+                  les dirigeants des TPE/PME en les aidant sur la gestion des
+                  tâches administratives et commerciales, que ce soit en période
+                  de flux tendus, ou pour un accompagnement à moyen ou long
+                  terme. </p>
+                  <p>
+                  Je suis une personne enjouée, avec la soif d’apprendre
+                  et de découvrir différents univers. Je suis passionnée par ce
+                  que j’entreprends, que ce soit dans la vie professionnelle et
+                  personnelle. Amatrice de théâtre et de photographie, je serai
+                  toujours en éveil pour mettre le focus sur ce qui est
+                  important dans le développement de votre entreprise.</p>
+                  <p>
+                  Mon
+                  expérience avérée dans le développement commercial, me permet
+                  aujourd’hui d’animer des formations commerciales. Je suis
+                  partenaire du centre de formation SP TRAINING certifié
+                  Qualiopi. </p>
+                  <p>
+                  Ma mission, vous l’aurez compris, est de vous
+                  soulager tout en développant la croissance économique de votre
+                  entreprise.
+                </p>
+                {/* <p>
                   Dirigeante et fondatrice de l’entreprise Reactiserv, dont
                   l’activité a débuté en septembre 2022. Après une licence en
                   langues étrangères appliquées anglais/espagnol, ainsi qu’un
@@ -62,7 +97,7 @@ function Aboutus() {
                   J’ai pu suivre les commerciaux dans leurs activités en les
                   accompagnant dans leur processus de ventes, ainsi que dans
                   l’utilisation du CRM. (Hubspot, Sage, Salesforce, Odoo){" "}
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

@@ -80,7 +80,7 @@ const Contact = () => {
       </section>
 
       <div className="container"></div>
-      <div className="card shadow  w-50 mx-auto my-3">
+      <div className="card shadow w-50 mx-auto py-3 my-3">
         <div className="card-body">
           <div className="row">
 
@@ -143,11 +143,11 @@ const Contact = () => {
                 Message :
               </label>
               <textarea
-                className="message-contact"
+                className="message-contact w-75 mx-auto"
                 placeholder="Merci de renseigner vos questions ou commentaires"
                 id="message"
-                cols="20"
-                rows="10"
+                /* cols="10" */
+                rows="5"
                 name="message"
                 {...register("message")}
               ></textarea>
@@ -158,7 +158,7 @@ const Contact = () => {
                 disponibles.
               </label> */}
 
-              <button className="button-contact" type="Submit" value="Envoyer">
+              <button className="button-contact w-25 mx-auto" type="Submit" value="Envoyer">
                 Envoyer
               </button>
             </div>

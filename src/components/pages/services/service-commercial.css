@@ -86,15 +86,15 @@ article {
 .container .card h4
 {
     position: relative;
-    width: 166%;
-    height: auto;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
-    /* box-shadow: 0 5px 20px rgba(0,0,0,0.2); */
-    background-color: rgba(152, 207, 179, 0.94);
+  width: 340px;
+  height: 90px;
+  top: -39px;
+  left: 0px;
 
-    box-shadow: 10px 10px;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  background-color: rgba(152, 207, 179, 0.94);
+  box-shadow: 10px 10px;
     
   }
 

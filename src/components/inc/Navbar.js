@@ -2,10 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import LogoNav from "../images/LogoReactiserv.png";
 import { NavDropdown } from "react-bootstrap";
+import "../../../src/App.css";
+
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg mb-1">
+    <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div className="container containerNav">
         {/*                     <a className="" href="/">Navbar</a> */}
         <div>
@@ -29,11 +31,11 @@ function Navbar() {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item navLink">
               <Link to="/home" className="nav-link active">
-                Home
+                Accueil
               </Link>
             </li>
 
-            <NavDropdown className="border border-0 " title="Services" id="basic-nav-dropdown">
+            <NavDropdown className="border border-0" title="Services" id="basic-nav-dropdown">
               <NavDropdown.Item >
                 <Link to="/strategie-commerciale" className="nav-link active">
                   Stratégie commerciale
@@ -48,7 +50,7 @@ function Navbar() {
 
               <NavDropdown.Item href="#service2">
               <Link to="/atelierProsp" className="nav-link active">
-              Atelier prospection commerciale
+              Atelier formation commerciale
                 </Link>
                 </NavDropdown.Item>
               {/* <NavDropdown.Divider /> */}
@@ -56,12 +58,12 @@ function Navbar() {
 
             <li className="nav-item">
               <Link to="/about" className="nav-link active">
-                About
+                Qui suis-je?
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/contact" className="nav-link active">
-                Contact
+                Me contacter
               </Link>
             </li>
           </ul>

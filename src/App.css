@@ -1,25 +1,24 @@
 p {
   font-size: 16px;
-  /*   color: rgb(11, 29, 11); */
+/*     color: rgb(11, 29, 11); */
 }
 
 /* -------------------------------------- NAVBAR ---------------------------------------*/
 
-.containerNav {
-  display: flex;
-}
-
 .nav-item {
   padding-inline: 2em;
+/*   background-color: fuchsia; */
 
 }
 
-/* #basic-nav-dropdown {
-  color: rgb(245, 240, 245);
-} */
+
+
+#basic-nav-dropdown {
+  color: rgb(254, 254, 254);
+}
 
 .dropdown-menu.show {
-  background-color: rgba(255, 255, 255, 0.90);
+  background-color: rgba(61, 57, 57, 0.9);
   color: blue;
   border: none;
 }
@@ -61,7 +60,7 @@ a.dropdown-item:hover {
 
 .enSavoirPlusBtn {
   box-shadow: 10px 10px;
-  background: green;
+  background: #a3ffc3;
   color: #162029ed;
 
 }
@@ -77,7 +76,7 @@ a.dropdown-item:hover {
 }
 
 .main-heading {
-  color: rgb(47, 125, 77);
+  color: rgb(106, 178, 134);
   /* font-size: 26px; */
 }
 
@@ -109,6 +108,7 @@ a.dropdown-item:hover {
 
 .Cards .cardCustom {
   padding: 15px;
+ 
   /* width: 27vw; */
 
   /*   margin-inline: 1em; */
@@ -116,6 +116,9 @@ a.dropdown-item:hover {
 
 .cardCustom .card {
   background-color: rgb(255, 255, 255);
+  width: 322px;
+  height: 60vh;
+  padding-bottom: 3px;
 
 }
 
