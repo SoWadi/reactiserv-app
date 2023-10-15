@@ -1,9 +1,12 @@
 import React from "react";
 import './animatedSquare.css';
-import Slider from "../inc/Slider";
+
 import { Link } from "react-router-dom";
 import VMC from "./inc/Vmc";
-import Service1 from "../images/Slider2.jpg";
+import ServiceCommercial from "../images/Slider2.jpg";
+import GestionAdministrative from "../images/Gestion_administrative.jpg";
+import KPIs from "../images/KPIs.jpg";
+import FormationCo from "../images/Formation.jpg"
 import PhotoHome from "../images/AboutFoto2.png";
 
 function Home() {
@@ -79,7 +82,7 @@ function Home() {
               <div className="col-md-4 p-3 cardCustom align-self-start zoomCards">
                 <div className="card shadow">
                   <img
-                    src={Service1}
+                    src={KPIs}
                     className="w-100 border-bottom-c"
                     alt="Services"
                   />
@@ -99,12 +102,13 @@ function Home() {
               </div>
               <div className="col-md-4 cardCustom align-self-center zoomCards">
                 <div className="card shadow">
+                  <div className="divGestAdm">
                   <img
-                    src={Service1}
+                    src={GestionAdministrative}
                     className="w-100 border-bottom-c"
                     alt="Services"
                   />
- 
+ </div>
                     <div className="card-body">
                       <h6>Gestion administrative</h6>
                       <div className="underline"></div>
@@ -121,13 +125,13 @@ function Home() {
               <div className="col-md-4 cardCustom align-self-end zoomCards">
                 <div className="card shadow">
                   <img
-                    src={Service1}
+                    src={FormationCo}
                     className="w-100 border-bottom-c"
                     alt="Services"
                   />
 
                     <div className="card-body">
-                      <h6>Atelier formation commerciale</h6>
+                      <h6>Formation commerciale</h6>
                       <div className="underline"></div>
                       <p>
                       Maximisez vos compétences de vente pour augmenter la performance de votre équipe et stimuler la croissance.

@@ -8,9 +8,11 @@ p {
 .nav-item {
   padding-inline: 2em;
 /*   background-color: fuchsia; */
-
 }
 
+a.nav-link.active:hover, a#basic-nav-dropdown:hover {
+  color: rgb(42, 165, 65);
+}
 
 
 #basic-nav-dropdown {
@@ -24,7 +26,7 @@ p {
 }
 
 a.dropdown-item:hover {
-  background-color: rgba(102, 237, 179, 0.413);
+  background-color: rgba(1, 19, 13, 0);
 }
 
 .LogoNav {
@@ -121,6 +123,10 @@ a.dropdown-item:hover {
   padding-bottom: 3px;
 
 }
+
+/* .divGestAdm {
+  border: 2px solid red;
+} */
 
 /* -------------------------------------- ANIMATION CARDS ---------------------------------------*/
 

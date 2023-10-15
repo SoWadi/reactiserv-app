@@ -78,8 +78,8 @@ function service1() {
               <div class="titleContainer">
                 {/* <img src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" /> */}
                 <h4 className="mt-5 p-2">
-                  Optimisation CRM, KPIs, processus internes, analyse des
-                  ventes.
+                  Optimisation CRM, KPIs, analyse des
+                  ventes, ...
                 </h4>
               </div>
               <div class="content">
@@ -106,7 +106,7 @@ function service1() {
               <div class="titleContainer">
                 {/*                 <img src="https://images.pexels.com/photos/847483/pexels-photo-847483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" /> */}
                 <h4 className="mt-5 p-2">
-                  Administration des ventes en France et à l'international.
+                  Administration des ventes en France et à l'international...
                 </h4>
               </div>
               <div class="content">
@@ -137,7 +137,7 @@ function service1() {
               <div class="titleContainer">
                 {/* <img src="https://images.pexels.com/photos/847483/pexels-photo-847483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" /> */}
                 <h4 className="mt-5 p-2">
-                  Prospection Commerciale : Développer Votre Clientèle
+                  Prospection Commerciale : Développer votre clientèle ...
                 </h4>
               </div>
               <div class="content">
