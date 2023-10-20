@@ -50,7 +50,7 @@ function Navbar() {
 
               <NavDropdown.Item href="#service2">
               <Link to="/atelierProsp" className="nav-link active">
-              Atelier formation commerciale
+              Formation commerciale
                 </Link>
                 </NavDropdown.Item>
               {/* <NavDropdown.Divider /> */}
