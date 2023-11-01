@@ -107,7 +107,7 @@ function ServiceAdm() {
                     stable
                   </li>
                   <li class="list-group-item bg-transparent">
-                    Renforcement la crédibilité de votre entreprise
+                    Renforcement de la crédibilité de votre entreprise
                   </li>
                 </ul>
               </div>

@@ -75,11 +75,12 @@ function Atelier() {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div class="accordion-body">
-                      à l’issue de la formation, la personne est en capacité de
-                      présenter efficacement son activité, sa société en
-                      quelques phrases. Ayant connaissance des principes de
-                      communication, elle sera capable d’ajuster en fonction de
-                      son interlocuteur et de mettre l’accent sur les mots clé.
+                      Objectifs : à l’issue de la formation, la personne est en
+                      capacité de présenter efficacement son activité, sa
+                      société en quelques phrases. Ayant connaissance des
+                      principes de communication, elle sera capable d’ajuster en
+                      fonction de son interlocuteur et de mettre l’accent sur
+                      les mots clé.
                     </div>
                   </div>
                 </div>
@@ -103,11 +104,11 @@ function Atelier() {
                     data-bs-parent="#accordionFlushExample"
                   >
                     <div class="accordion-body">
-                      à l’issue de la formation, la personne est en capacité de
-                      définir ses objectifs de prospection. D’identifier ses
-                      cibles contacts froids et chauds. D’utiliser une trame de
-                      prise de rdv rapide et efficace. De passer un barrage et
-                      en faire un allié.
+                      Objectifs : à l’issue de la formation, la personne est en
+                      capacité de définir ses objectifs de prospection.
+                      D’identifier ses cibles contacts froids et chauds.
+                      D’utiliser une trame de prise de rdv rapide et efficace.
+                      De passer un barrage et en faire un allié.
                     </div>
                   </div>
                 </div>
@@ -359,7 +360,9 @@ function Atelier() {
               aria-expanded="false"
               aria-controls="flush-collapseOne"
             >
-              <span className="text-center"><h4>Tarifs</h4></span>
+              <span className="text-center">
+                <h4>Tarifs</h4>
+              </span>
             </button>
           </h2>
           <div
@@ -372,7 +375,7 @@ function Atelier() {
               <table class="table table-bordered table-custom custom-table">
                 <thead>
                   <tr>
-                    <th>Nb De Programmes</th>
+                    <th>Quantité</th>
                     <th>Tarif HT</th>
                     <th>Tarif TTC</th>
                   </tr>

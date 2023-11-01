@@ -116,13 +116,13 @@ function service1() {
                     Suivi administratif
                   </li>
                   <li li class="list-group-item bg-transparent">
-                    Traitement de la commande de A à Z
+                    Traitement des commandes de A à Z
                   </li>
                   <li li class="list-group-item bg-transparent">
                     Suivi logistique
                   </li>
                   <li li class="list-group-item bg-transparent">
-                    Créances clients :
+                    Créances clients
                   </li>
                   <li li class="list-group-item bg-transparent">
                     Suivi des commerciaux

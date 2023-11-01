@@ -4,7 +4,6 @@ import LogoNav from "../images/LogoReactiserv.png";
 import { NavDropdown } from "react-bootstrap";
 import "../../../src/App.css";
 
-
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
@@ -35,24 +34,31 @@ function Navbar() {
               </Link>
             </li>
 
-            <NavDropdown className="border border-0" title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item >
+            <NavDropdown
+              className="border border-0"
+              title="Services"
+              id="basic-nav-dropdown"
+            >
+              <NavDropdown.Item href="#service2">
+                <Link
+                  to="/atelierProsp"
+                  className="nav-link active text-warning"
+                >
+                  Formations commerciales
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
                 <Link to="/strategie-commerciale" className="nav-link active">
                   Stratégie commerciale
                 </Link>
               </NavDropdown.Item>
-              
+
               <NavDropdown.Item>
                 <Link to="/serviceAdm" className="nav-link active">
-                Assistanat administratif
+                  Assistanat administratif
                 </Link>
               </NavDropdown.Item>
 
-              <NavDropdown.Item href="#service2">
-              <Link to="/atelierProsp" className="nav-link active">
-              Formation commerciale
-                </Link>
-                </NavDropdown.Item>
               {/* <NavDropdown.Divider /> */}
             </NavDropdown>
 

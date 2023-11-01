@@ -55,8 +55,7 @@ function Aboutus() {
                   Mon objectif premier est de soulager
                   les dirigeants des TPE/PME en les aidant sur la gestion des
                   tâches administratives et commerciales, que ce soit en période
-                  de flux tendus, ou pour un accompagnement à moyen ou long
-                  terme. </p>
+                  de flux tendus ou pour un accompagnement à moyen terme. </p>
                   <p>
                   Je suis une personne enjouée, avec la soif d’apprendre
                   et de découvrir différents univers. Je suis passionnée par ce

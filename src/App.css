@@ -110,17 +110,15 @@ a.dropdown-item:hover {
 
 .Cards .cardCustom {
   padding: 15px;
- 
-  /* width: 27vw; */
 
-  /*   margin-inline: 1em; */
 }
 
 .cardCustom .card {
-  background-color: rgb(255, 255, 255);
+  background-color: #096e52;
+  color: #fff;
   width: 322px;
   height: 60vh;
-  padding-bottom: 3px;
+  padding-bottom: 18px;
 
 }
 
@@ -154,7 +152,7 @@ a.dropdown-item:hover {
 }
 
 .border-bottom-c {
-  border-bottom: 1px solid rgba(236, 146, 19, 0.449);
+  border-bottom: 8px solid rgb(99, 191, 124);
 }
 
 .footer a {
