@@ -62,13 +62,13 @@ a.dropdown-item:hover {
 
 .enSavoirPlusBtn {
   box-shadow: 10px 10px;
-  background: #a3ffc3;
+  background: rgb(99, 191, 124)/* #a3ffc3 */;
   color: #162029ed;
 
 }
 
 .enSavoirPlusBtn:hover {
-  background-color: rgb(126, 207, 169);
+  background-color:  #a3ffc3;
 }
 
 .carousel-control-next-icon,
@@ -78,7 +78,7 @@ a.dropdown-item:hover {
 }
 
 .main-heading {
-  color: rgb(106, 178, 134);
+  color:rgb(99, 191, 124);
   /* font-size: 26px; */
 }
 
@@ -89,7 +89,7 @@ a.dropdown-item:hover {
 .underline {
   height: 4px;
   width: 4rem;
-  background-color: rgb(72, 181, 114);
+  background-color: rgb(99, 191, 124);
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -153,6 +153,14 @@ a.dropdown-item:hover {
 
 .border-bottom-c {
   border-bottom: 8px solid rgb(99, 191, 124);
+}
+
+.enSavoirPlusCard {
+  color: rgb(249, 251, 250);
+}
+
+.enSavoirPlusCard:hover {
+  color: rgb(99, 191, 124);
 }
 
 .footer a {

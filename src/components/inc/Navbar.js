@@ -42,7 +42,7 @@ function Navbar() {
               <NavDropdown.Item href="#service2">
                 <Link
                   to="/atelierProsp"
-                  className="nav-link active text-warning"
+                  className="nav-link active"
                 >
                   Formations commerciales
                 </Link>

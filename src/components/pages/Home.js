@@ -100,7 +100,7 @@ function Home() {
                   </div>
                   <Link
                     to="/strategie-commerciale"
-                    className="btn btn-link text-start text-light"
+                    className="ps-3 text-start enSavoirPlusCard"
                   >
                     En savoir plus{" "}
                   </Link>
@@ -123,7 +123,7 @@ function Home() {
                       gestion administrative sur mesure.
                     </p>
                   </div>
-                  <Link to="/serviceAdm" className="btn btn-link text-start text-light">
+                  <Link to="/serviceAdm" className="ps-3 text-start enSavoirPlusCard">
                     En savoir plus{" "}
                   </Link>
                 </div>
@@ -144,7 +144,7 @@ function Home() {
                       performance de votre équipe et stimuler la croissance.
                     </p>
                   </div>
-                  <Link to="/atelierProsp" className="btn btn-link text-start text-light">
+                  <Link to="/atelierProsp" className="ps-3 text-start enSavoirPlusCard">
                     En savoir plus{" "}
                   </Link>
                 </div>

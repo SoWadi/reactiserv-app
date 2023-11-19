@@ -437,6 +437,8 @@ function Atelier() {
           </div>
         </div>
       </div>
+
+      
     </div>
   );
 }

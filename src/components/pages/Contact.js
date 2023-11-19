@@ -174,7 +174,7 @@ const Contact = () => {
 
                 <div className="social-icons">
                 <a href="https://www.linkedin.com/company/reactiserv/">
-                  <FontAwesomeIcon icon={faLinkedinIn} className="mr-3 mx-3 text-success" />
+                  <FontAwesomeIcon icon={faLinkedinIn} className="mr-3 mx-3" />
                 </a>
               </div>
 
