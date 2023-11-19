@@ -22,9 +22,9 @@
   }
   
 
- /*  .accordionButtonCustom {
+  .accordionButtonCustom {
     background-color: fuchsia;
-  } */
+  }
 
   .accordion-button.collapsed {
     color: rgb(249, 249, 249);
@@ -33,7 +33,9 @@
   }
 
   .accordion-button:not(.collapsed) {
-    color: rgb(251, 250, 251);
-    background-color: #096e52;
-    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+    color: white;
+    background-color: fuchsia/* var(--bs-accordion-active-bg) */;
+/*     box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color); */
   }
+
+  

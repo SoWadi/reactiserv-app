@@ -81,7 +81,30 @@ function Home() {
             </div>
 
             <div className="Cards">
-              <div className="col-md-4 p-3 cardCustom align-self-start zoomCards">
+
+            <div className="col-md-4 cardCustom align-self-start zoomCards">
+                <div className="card shadow">
+                  <img
+                    src={FormationCo}
+                    className="w-100 border-bottom-c"
+                    alt="Services"
+                  />
+
+                  <div className="card-body">
+                    <h6>Formation commerciale</h6>
+                    <div className="underline"></div>
+                    <p>
+                      Maximisez vos compétences de vente pour augmenter la
+                      performance de votre équipe et stimuler la croissance.
+                    </p>
+                  </div>
+                  <Link to="/atelierProsp" className="ps-3 text-start enSavoirPlusCard">
+                    En savoir plus{" "}
+                  </Link>
+                </div>
+              </div>
+
+              <div className="col-md-4 p-3 cardCustom align-self-center zoomCards">
                 <div className="card shadow">
                   <img
                     src={KPIs}
@@ -106,7 +129,7 @@ function Home() {
                   </Link>
                 </div>
               </div>
-              <div className="col-md-4 cardCustom align-self-center zoomCards">
+              <div className="col-md-4 cardCustom align-self-end zoomCards">
                 <div className="card shadow">
                   <div className="divGestAdm">
                     <img
@@ -128,27 +151,7 @@ function Home() {
                   </Link>
                 </div>
               </div>
-              <div className="col-md-4 cardCustom align-self-end zoomCards">
-                <div className="card shadow">
-                  <img
-                    src={FormationCo}
-                    className="w-100 border-bottom-c"
-                    alt="Services"
-                  />
-
-                  <div className="card-body">
-                    <h6>Formation commerciale</h6>
-                    <div className="underline"></div>
-                    <p>
-                      Maximisez vos compétences de vente pour augmenter la
-                      performance de votre équipe et stimuler la croissance.
-                    </p>
-                  </div>
-                  <Link to="/atelierProsp" className="ps-3 text-start enSavoirPlusCard">
-                    En savoir plus{" "}
-                  </Link>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
