@@ -71,7 +71,7 @@ function Home() {
       {/* <VMC /> */}
 
       {/* Our services */}
-      <section className="section border-top-c mb-5">
+      <section className="section mb-5">
         <h4 id="more-services"></h4>
         <div className="container">
           <div className="row">
