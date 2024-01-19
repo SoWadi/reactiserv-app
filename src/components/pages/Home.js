@@ -2,12 +2,9 @@ import React from "react";
 import "./animatedSquare.css";
 
 import { Link } from "react-router-dom";
-import VMC from "./inc/Vmc";
-import ServiceCommercial from "../images/Slider2.jpg";
 import GestionAdministrative from "../images/Gestion_administrative.jpg";
 import KPIs from "../images/KPIs.jpg";
 import FormationCo from "../images/Formation.jpg";
-import PhotoHome from "../images/AboutFoto2.png";
 
 function Home() {
   return (
@@ -36,7 +33,7 @@ function Home() {
               <div className="col-md-12 pb-5 my-auto text-center d-flex flex-column">
                 <h2 className="main-heading">
                   {" "}
-                  Linda Tadjer
+                  Linda Avlessi
                   <hr className="w-25 mx-auto" />
                 </h2>
                 <h1>
@@ -72,7 +69,7 @@ function Home() {
 
       {/* Our services */}
       <section className="section mb-5">
-        <h4 id="more-services"></h4>
+
         <div className="container">
           <div className="row">
             <div className="col-md-12 mb-4 text-center mt-5">
@@ -104,7 +101,7 @@ function Home() {
                 </div>
               </div>
 
-              <div className="col-md-4 p-3 cardCustom align-self-center zoomCards">
+              <div className="col-md-4 cardCustom align-self-center zoomCards">
                 <div className="card shadow">
                   <img
                     src={KPIs}
@@ -113,7 +110,7 @@ function Home() {
                   />
 
                   <div className="card-body">
-                    <h6>Accompagnement sur la stratégie commerciale</h6>
+                    <h6>Stratégie commerciale</h6>
                     <div className="underline"></div>
                     <p>
                       Je vous accompagne sur la
@@ -161,59 +158,3 @@ function Home() {
 }
 
 export default Home;
-
-{
-  /*       <section className="section bg-c-light border-top-c">
-<div className="container">
-<div className="row">
-<div className="col-md-12 mb-4 text-center">
-<h3 className="main-heading">Vision, mission, value</h3>
-<div className="underline mx-auto"></div>
-</div>
-<div className="col-md-4 text-center">
-<h6>Our vision</h6>
-<p>
-Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem then
-press the Ctrl-Shift-L keyboard
-</p>
-</div>
-<div className="col-md-4 text-center">
-<h6>Our mission</h6>
-<p>
-Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem then
-press the Ctrl-Shift-L keyboard
-</p>
-</div>
-<div className="col-md-4 text-center">
-<h6>Our core values</h6>
-<p>
-Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem then
-press the Ctrl-Shift-L keyboard
-</p>
-</div>
-</div>
-</div>
-</section> */
-}
-
-{
-  /* <h6>Our vision</h6>
-<p>
-  Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem then
-  press the Ctrl-Shift-L keyboard
-</p>
-</div>
-<div className="col-md-4">
-<h6>Our mission</h6>
-<p>
-  Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem then
-  press the Ctrl-Shift-L keyboard
-</p>
-</div>
-<div className="col-md-4">
-<h6>Our core values</h6>
-<p>
-  Use Lorem Ipsum. For plaintext Lorem Ipsum, type lorem then
-  press the Ctrl-Shift-L keyboard
-</p>*/
-}

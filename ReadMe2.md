@@ -1,3 +1,37 @@
+
+
+
+                
+                {/* <p>
+                  Dirigeante et fondatrice de l’entreprise Reactiserv, dont
+                  l’activité a débuté en septembre 2022. Après une licence en
+                  langues étrangères appliquées anglais/espagnol, ainsi qu’un
+                  master recherche Etudes Européennes et Relations
+                  Internationales, je me suis engagée dans l’assistanat
+                  administratif et commercial dans des PME principalement.
+                </p>
+
+                <p>
+                  Mes neufs années au sein du salariat dans les métiers de
+                  l’assistanat commercial et administratif à la fois sur le
+                  marché français et international, également en tant que
+                  commercial sédentaire dans le secteur du b to b et b to c,
+                  m’ont permis de développer des compétences et m’ont guidé vers
+                  l’entrepreunariat.
+                </p>
+
+                <p>
+                  J’ai pu suivre les commerciaux dans leurs activités en les
+                  accompagnant dans leur processus de ventes, ainsi que dans
+                  l’utilisation du CRM. (Hubspot, Sage, Salesforce, Odoo){" "}
+                </p> */}
+
+
+
+
+-----------------------
+=======================
+-----------------------
 import React from "react";
 import { Link } from "react-router-dom";
 

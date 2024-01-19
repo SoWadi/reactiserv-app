@@ -10,10 +10,10 @@ function Aboutus() {
       <section className="py-4 bg-success">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-4 my-auto">
+            <div className="col-lg-6 col-md-4 my-auto w-50">
               <h4>About</h4>
             </div>
-            <div className="col-lg-6 col-md-8 my-auto">
+            <div className="col-lg-6 col-md-8 my-auto w-50">
               <h6 className="float-end">
                 <Link to="/home" className="text-dark">
                   {" "}
@@ -36,71 +36,120 @@ function Aboutus() {
                 <img
                   className="col-12 col-md-12 col-lg-6 float-end  aboutLindaPhoto shadow divAnimationAbout"
                   src={photoLinda}
+                  alt="Linda Avlessi"
                 ></img>
               </div>
 
               <div className="col-12 col-md-6 my-5 p-auto text-white presentation">
                 <p>
-                  Linda Tadjer, gérante de l’entreprise REACTISERV, dont
-                  l’activité a débuté en septembre 2022 après une expérience de
-                  huit années dans le salariat en tant qu’assistante ADV Export,
-                  et commerciale sédentaire BtoB/BtoC. </p>
-                  <p>
-                  Mes études en langues
-                  étrangères me permettent aujourd’hui de travailler pour des
-                  entreprises étant implantées sur le marché international, ou
-                  souhaitant se développer en ce sens. Je pratique l’anglais,
-                  l’espagnol et l’italien. </p>
-                  <p>
-                  Mon objectif premier est de soulager
-                  les dirigeants des TPE/PME en les aidant sur la gestion des
-                  tâches administratives et commerciales, que ce soit en période
-                  de flux tendus ou pour un accompagnement à moyen terme. </p>
-                  <p>
-                  Je suis une personne enjouée, avec la soif d’apprendre
-                  et de découvrir différents univers. Je suis passionnée par ce
-                  que j’entreprends, que ce soit dans la vie professionnelle et
-                  personnelle. Amatrice de théâtre et de photographie, je serai
-                  toujours en éveil pour mettre le focus sur ce qui est
-                  important dans le développement de votre entreprise.</p>
-                  <p>
-                  Mon
-                  expérience avérée dans le développement commercial, me permet
-                  aujourd’hui d’animer des formations commerciales. Je suis
-                  partenaire du centre de formation SP TRAINING certifié
-                  Qualiopi. </p>
-                  <p>
-                  Ma mission, vous l’aurez compris, est de vous
-                  soulager tout en développant la croissance économique de votre
-                  entreprise.
-                </p>
-                {/* <p>
-                  Dirigeante et fondatrice de l’entreprise Reactiserv, dont
-                  l’activité a débuté en septembre 2022. Après une licence en
-                  langues étrangères appliquées anglais/espagnol, ainsi qu’un
-                  master recherche Etudes Européennes et Relations
-                  Internationales, je me suis engagée dans l’assistanat
-                  administratif et commercial dans des PME principalement.
+                  Bonjour, je m'appelle Linda Avlessi, la gérante de REACTISERV.
+                  J'ai débuté mon parcours professionnel en septembre 2022 après
+                  huit années d'expérience en tant qu'assistante ADV Export et
+                  commerciale BtoB/BtoC.
                 </p>
 
                 <p>
-                  Mes neufs années au sein du salariat dans les métiers de
-                  l’assistanat commercial et administratif à la fois sur le
-                  marché français et international, également en tant que
-                  commercial sédentaire dans le secteur du b to b et b to c,
-                  m’ont permis de développer des compétences et m’ont guidé vers
-                  l’entrepreunariat.
+                  Grâce à mes études en langues étrangères, je maîtrise
+                  l'anglais, l'espagnol et l'italien, ce qui me permet de
+                  travailler avec des entreprises internationales.
                 </p>
 
                 <p>
-                  J’ai pu suivre les commerciaux dans leurs activités en les
-                  accompagnant dans leur processus de ventes, ainsi que dans
-                  l’utilisation du CRM. (Hubspot, Sage, Salesforce, Odoo){" "}
-                </p> */}
+                  Mes valeurs, telles que la bienveillance et l'engagement,
+                  guident mon travail. Mon objectif principal est d'aider les
+                  dirigeants de TPE/PME en gérant les tâches administratives et
+                  commerciales, que ce soit pendant des périodes chargées ou
+                  pour un soutien à long terme.
+                </p>
+
+                <p>
+                  En dehors du travail, je suis passionnée par le théâtre et la
+                  photographie. Ces passions ajoutent une touche dynamique à ma
+                  personnalité et contribuent à mon engagement dans le
+                  développement commercial et la formation.
+                </p>
+
+                <p>
+                  En résumé, je m'engage à simplifier la vie des entrepreneurs
+                  tout en contribuant à la croissance de leur entreprise. Mon
+                  approche sérieuse, bienveillante et engagée est renforcée par
+                  ma personnalité passionnée et curieuse.
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </section>
+
+      <section
+        class="timelineUp timeline-clippy timeline-rhombus text-white m-auto my-5 d-md-block d-lg-none
+"
+      >
+        <div class="container">
+          <div class="row">
+            <h1> EN QUELQUES DATES</h1>
+            <div class="col-md-6 mb-3 pb-3">
+              <div class="bulleUp">
+                <h5>2013</h5>
+                <div class="underline m-auto"></div>
+                <div>Master Etudes Européennes & Relations Internationales</div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3 pb-3">
+              <div class="bulleUp">
+                <h5>2014 – 2022</h5>
+                <div class="underline m-auto"></div>
+                <div>
+                  Commerciale sédentaire BtoB, Assistante commerciale & ADV
+                  France et Export
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3 pb-3">
+            <div class="bulleUp">
+              <h5>2022</h5>
+              <div class="underline m-auto"></div>
+              <div>Création de REACTISERV</div>
+            </div>
+          </div>
+          </div>
+
+         
+          {/*       <!-- Add more columns and content for additional list items as needed --> */}
+        </div>
+      </section>
+
+      <section class="timeline timeline-clippy timeline-rhombus col-12 text-white d-none d-md-none d-lg-block">
+      <h1 className="text-center my-5"> EN QUELQUES DATES</h1>
+        <ul>
+          <li>
+            <div className="bulle">
+              <h5>2013</h5>
+              <div className="underline"></div>
+
+              <div> Master Etudes Européennes & Relations Internationales </div>
+            </div>
+          </li>
+          <li>
+            <div className="bulle">
+              <h5>2014 – 2022</h5>
+              <div className="underline"></div>
+              <div>
+                Commerciale sédentaire BtoB, Assistante commerciale & ADV France
+                et Export
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="bulle">
+              <h5>2022</h5>
+              <div className="underline"></div>
+              <div>Création de REACTISERV </div>
+            </div>
+          </li>
+
+          {/* more list items here */}
+        </ul>
       </section>
 
       {/* Our Vision, mission and value*/}

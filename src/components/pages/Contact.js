@@ -68,10 +68,10 @@ const Contact = () => {
       <section className="py-4 mb-5 bg-success">
         <div className="container">
           <div className="row">
-            <div className="col-md-4 my-auto">
+            <div className="col-md-4 my-auto w-50">
               <h4>Contact</h4>
             </div>
-            <div className="col-md-8 my-auto">
+            <div className="col-md-8 my-auto w-50">
               <h6 className="float-end">
                 <Link to="/home" className="text-dark">
                   {" "}
@@ -168,7 +168,7 @@ const Contact = () => {
             </div>
             <div className="col-md-4 my-auto">
               <div className="my-auto contactInfos">
-                <h5 className="mb-4">Linda Tadjer</h5>
+                <h5 className="mb-4">Linda Avlessi</h5>
                 <p className="mr-3 mx-3"> 📞 07 88 13 33 03</p>
                 <p className="mr-3 mx-3">✉️ l.avlessi@reacti-serv.com</p>
 

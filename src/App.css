@@ -1,16 +1,17 @@
 p {
   font-size: 16px;
-/*     color: rgb(11, 29, 11); */
+  /*     color: rgb(11, 29, 11); */
 }
 
 /* -------------------------------------- NAVBAR ---------------------------------------*/
 
 .nav-item {
   padding-inline: 2em;
-/*   background-color: fuchsia; */
+  /*   background-color: fuchsia; */
 }
 
-a.nav-link.active:hover, a#basic-nav-dropdown:hover {
+a.nav-link.active:hover,
+a#basic-nav-dropdown:hover {
   color: rgb(42, 165, 65);
 }
 
@@ -20,9 +21,14 @@ a.nav-link.active:hover, a#basic-nav-dropdown:hover {
 }
 
 .dropdown-menu.show {
-  background-color: rgba(61, 57, 57, 0.9);
+  background-color: rgb(42, 45, 43);
   color: blue;
   border: none;
+  border-radius: 1px;
+  height: 27vh;
+  padding: inherit;
+  padding-top: inherit;
+  padding-top: 1em;
 }
 
 a.dropdown-item:hover {
@@ -62,13 +68,15 @@ a.dropdown-item:hover {
 
 .enSavoirPlusBtn {
   box-shadow: 10px 10px;
-  background: rgb(99, 191, 124)/* #a3ffc3 */;
+  background: rgb(99, 191, 124)
+    /* #a3ffc3 */
+  ;
   color: #162029ed;
 
 }
 
 .enSavoirPlusBtn:hover {
-  background-color:  #a3ffc3;
+  background-color: #a3ffc3;
 }
 
 .carousel-control-next-icon,
@@ -78,7 +86,7 @@ a.dropdown-item:hover {
 }
 
 .main-heading {
-  color:rgb(99, 191, 124);
+  color: rgb(99, 191, 124);
   /* font-size: 26px; */
 }
 
@@ -188,15 +196,16 @@ a.dropdown-item:hover {
   }
 
   .cardCustom {
-/*     display: flex; */
+    /*     display: flex; */
     justify-content: center;
     flex-direction: column;
 
   }
 
-    .cardCustom>.card {
-      width: 100%;
-      padding: 2%; 
+  .cardCustom>.card {
+    width: 77%;
+    padding: 2%;
+    margin-inline: auto;
 
   }
 
