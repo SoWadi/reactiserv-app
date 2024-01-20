@@ -59,7 +59,7 @@ function Aboutus() {
                   guident mon travail. Mon objectif principal est d'aider les
                   dirigeants de TPE/PME en gérant les tâches administratives et
                   commerciales, que ce soit pendant des périodes chargées ou
-                  pour un soutien à long terme.
+                  de flux tendus.
                 </p>
 
                 <p>

@@ -37,7 +37,7 @@ function Home() {
                   <hr className="w-25 mx-auto" />
                 </h2>
                 <h1>
-                  Office manager & Commerciale indépendante
+                  Formations & Accompagnement commerciale
                   {/* Simplifier vos opérations commerciales. */}
                 </h1>
                 <div className="underline mx-auto"></div>
@@ -68,8 +68,7 @@ function Home() {
       {/* <VMC /> */}
 
       {/* Our services */}
-      <section className="section mb-5">
-
+      <section className="section mb-5" id="more-services">
         <div className="container">
           <div className="row">
             <div className="col-md-12 mb-4 text-center mt-5">
@@ -78,8 +77,7 @@ function Home() {
             </div>
 
             <div className="Cards">
-
-            <div className="col-md-4 cardCustom align-self-start zoomCards">
+              <div className="col-md-4 cardCustom align-self-start zoomCards">
                 <div className="card shadow">
                   <img
                     src={FormationCo}
@@ -95,7 +93,10 @@ function Home() {
                       performance de votre équipe et stimuler la croissance.
                     </p>
                   </div>
-                  <Link to="/atelierProsp" className="ps-3 text-start enSavoirPlusCard">
+                  <Link
+                    to="/atelierProsp"
+                    className="ps-3 text-start enSavoirPlusCard"
+                  >
                     En savoir plus{" "}
                   </Link>
                 </div>
@@ -113,9 +114,8 @@ function Home() {
                     <h6>Stratégie commerciale</h6>
                     <div className="underline"></div>
                     <p>
-                      Je vous accompagne sur la
-                      stratégie commerciale, pour une croissance efficace de
-                      votre entreprise.
+                      Je vous accompagne sur la stratégie commerciale, pour une
+                      croissance efficace de votre entreprise.
                     </p>
                   </div>
                   <Link
@@ -143,12 +143,14 @@ function Home() {
                       gestion administrative sur mesure.
                     </p>
                   </div>
-                  <Link to="/serviceAdm" className="ps-3 text-start enSavoirPlusCard">
+                  <Link
+                    to="/serviceAdm"
+                    className="ps-3 text-start enSavoirPlusCard"
+                  >
                     En savoir plus{" "}
                   </Link>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
