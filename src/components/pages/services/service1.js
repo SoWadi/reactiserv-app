@@ -128,7 +128,7 @@ function service1() {
                     Suivi des commerciaux
                   </li>
                   <li li class="list-group-item bg-transparent">
-                    Gestion des stock
+                    Gestion des stocks
                   </li>
                 </ul>
               </div>

@@ -38,12 +38,6 @@ function Atelier() {
                 percutant et vous fournir les outils nécessaires pour exceller
                 dans vos prises de rendez-vous téléphoniques en toute autonomie.
               </p>
-          <div className="row justify-content-start mx-auto">
-            <img
-              className="mx-auto mt-5 w-50 object-fit-fill"
-              src={spPartnerPhoto}
-            />
-          </div>
               <p className="mt-5">
                 Chaque programme a une durée d'une 1/2 journée et traite d'une
                 spécialité du cycle de vente:
@@ -343,95 +337,104 @@ function Atelier() {
         </div>
       </section>
 
-      {/* ---------------------------------------------------------------- ACCORDION TARIFS ----------------------------------------------------------------*/}
-      <div
-        class="accordion accordion-flush mx-auto my-5 w-50"
-        id="accordionFlushExample"
-        data-bs-theme="dark"
-      >
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed text-center accordionButtonCustom"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseOne"
-              aria-expanded="false"
-              aria-controls="flush-collapseOne"
+      {/* -------------------------------------------------------------- ENSEMBLE TARIFS & PHOTO ----------------------------------------------------*/}
+
+      <div className="d-flex flex-column flex-lg-row-reverse justify-content-lg-center">
+        {/* ---------------------------------------------------------------- ACCORDION TARIFS ----------------------------------------------------------------*/}
+        <div className="row m-auto position-sticky">
+          <img className="mx-auto w-50 object-fit-fill" src={spPartnerPhoto} />
+        </div>
+
+        {/* ---------------------------------------------------------------- ACCORDION TARIFS ----------------------------------------------------------------*/}
+        <div
+          class="row accordion accordion-flush m-lg-5 my-5 w-50 w-lg-50"
+          id="accordionFlushExample"
+          data-bs-theme="dark"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed text-center accordionButtonCustom"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                <span className="text-center">
+                  <h4>Tarifs</h4>
+                </span>
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
             >
-              <span className="text-center">
-                <h4>Tarifs</h4>
-              </span>
-            </button>
-          </h2>
-          <div
-            id="flush-collapseOne"
-            class="accordion-collapse collapse"
-            data-bs-parent="#accordionFlushExample"
-          >
-            <div class="container mt-4 tarifContainer ">
-              {/* <h2>Liste de Tarifs</h2> */}
-              <table class="table table-bordered table-custom custom-table">
-                <thead>
-                  <tr>
-                    <th>Quantité</th>
-                    <th>Tarif HT</th>
-                    <th>Tarif TTC</th>
-                  </tr>
-                </thead>
-                <tbody class="even">
-                  <tr>
-                    <td>1</td>
-                    <td>390,00 €</td>
-                    <td>468,00 €</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>780,00 €</td>
-                    <td>936,00 €</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>1 170,00 €</td>
-                    <td>1 404,00 €</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>1 560,00 €</td>
-                    <td>1 872,00 €</td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                    <td>1 790,00 €</td>
-                    <td>2 148,00 €</td>
-                  </tr>
-                  <tr>
-                    <td>6</td>
-                    <td>2 090,00 €</td>
-                    <td>2 508,00 €</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td>2 350,00 €</td>
-                    <td>2 820,00 €</td>
-                  </tr>
-                  <tr>
-                    <td>8</td>
-                    <td>2 610,00 €</td>
-                    <td>3 132,00 €</td>
-                  </tr>
-                  <tr>
-                    <td>9</td>
-                    <td>2 850,00 €</td>
-                    <td>3 420,00 €</td>
-                  </tr>
-                  <tr>
-                    <td>10</td>
-                    <td>3 090,00 €</td>
-                    <td>3 708,00 €</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div class="container mt-4 tarifContainer ">
+                {/* <h2>Liste de Tarifs</h2> */}
+                <table class="table table-bordered table-custom custom-table">
+                  <thead>
+                    <tr>
+                      <th>Quantité</th>
+                      <th>Tarif HT</th>
+                      <th>Tarif TTC</th>
+                    </tr>
+                  </thead>
+                  <tbody class="even">
+                    <tr>
+                      <td>1</td>
+                      <td>390,00 €</td>
+                      <td>468,00 €</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>780,00 €</td>
+                      <td>936,00 €</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>1 170,00 €</td>
+                      <td>1 404,00 €</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>1 560,00 €</td>
+                      <td>1 872,00 €</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>1 790,00 €</td>
+                      <td>2 148,00 €</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>2 090,00 €</td>
+                      <td>2 508,00 €</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>2 350,00 €</td>
+                      <td>2 820,00 €</td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>2 610,00 €</td>
+                      <td>3 132,00 €</td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>2 850,00 €</td>
+                      <td>3 420,00 €</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>3 090,00 €</td>
+                      <td>3 708,00 €</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
