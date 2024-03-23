@@ -33,7 +33,7 @@ function Atelier() {
           <div className="underline"></div>
           <div className="text-center pb-5">
             <div className="mx-auto text-white w-75 py-5">
-              <p className="text-center w-100 fs-4 mb-5">
+              <p className="text-center w-100 fs-4 my-5">
                 Ma mission est de vous accompagner dans la création d'un pitch
                 percutant et vous fournir les outils nécessaires pour exceller
                 dans vos prises de rendez-vous téléphoniques en toute autonomie.
@@ -339,15 +339,15 @@ function Atelier() {
 
       {/* -------------------------------------------------------------- ENSEMBLE TARIFS & PHOTO ----------------------------------------------------*/}
 
-      <div className="d-flex flex-column flex-lg-row-reverse justify-content-lg-center">
+      <div className="d-flex flex-column flex-lg-row-reverse justify-content-lg-center w-75 m-auto">
         {/* ---------------------------------------------------------------- ACCORDION TARIFS ----------------------------------------------------------------*/}
         <div className="row m-auto position-sticky">
-          <img className="mx-auto w-50 object-fit-fill" src={spPartnerPhoto} />
+          <img className="mx-auto w-50 object-fit-fill" alt="sp-partner" src={spPartnerPhoto} />
         </div>
 
         {/* ---------------------------------------------------------------- ACCORDION TARIFS ----------------------------------------------------------------*/}
         <div
-          class="row accordion accordion-flush m-lg-5 my-5 w-50 w-lg-50"
+          class="row accordion accordion-flush m-auto m-lg-5 my-5 w-50 w-lg-25"
           id="accordionFlushExample"
           data-bs-theme="dark"
         >
@@ -361,7 +361,7 @@ function Atelier() {
                 aria-expanded="false"
                 aria-controls="flush-collapseOne"
               >
-                <span className="text-center">
+                <span className="text-center mx-auto">
                   <h4>Tarifs</h4>
                 </span>
               </button>
