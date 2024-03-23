@@ -1,16 +1,21 @@
 
   .tarifContainer {
-    background-color: #017d58;
-    width: 25px;
-    padding: 12px;
-  }
 
+    width: 25px;
+    padding: 2px;
+    width: fit-content;
+  }
+  
   table *{
     width: fit-content;
     text-align: center;
+
   }
   
-  
+  #flush-collapseOne {
+    width: fit-content;
+  } 
+
   tr td:first-child{
 
     width: 2em;

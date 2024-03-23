@@ -111,6 +111,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseOne"
                       aria-expanded="false"
                       aria-controls="flush-collapseOne"
+                      style={{backgroundColor: "#017d58"}}
                     >
                       Construire efficacement son Pitch
                     </button>
@@ -140,6 +141,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseTwo"
                       aria-expanded="false"
                       aria-controls="flush-collapseTwo"
+                      style={{backgroundColor: "#017d58"}}
                     >
                       Prendre RDV par téléphone
                     </button>
@@ -168,6 +170,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseThree"
                       aria-expanded="false"
                       aria-controls="flush-collapseThree"
+                      style={{backgroundColor: "#017d58"}}
                     >
                       Développer son business en réseaux
                     </button>
@@ -195,6 +198,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseFour"
                       aria-expanded="false"
                       aria-controls="flush-collapseFour"
+                      style={{backgroundColor: "#017d58"}}
                     >
                       Faire exprimer les besoins
                     </button>
@@ -224,6 +228,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseFive"
                       aria-expanded="false"
                       aria-controls="flush-collapseFive"
+                      style={{backgroundColor: "#017d58"}}
                     >
                       Développer les besoins
                     </button>
@@ -252,6 +257,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseSix"
                       aria-expanded="false"
                       aria-controls="flush-collapseSix"
+                      style={{backgroundColor: "#017d58"}}
                     >
                       Argumenter et conclure ses ventes
                     </button>
@@ -280,6 +286,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseSeven"
                       aria-expanded="false"
                       aria-controls="flush-collapseSeven"
+                      style={{backgroundColor: "#017d58"}}
                     >
                       Les clés de la négociation
                     </button>
@@ -308,6 +315,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseEight"
                       aria-expanded="false"
                       aria-controls="flush-collapseEight"
+                      style={{backgroundColor: "#017d58"}}
                     >
                       Optimiser son profil Linkedin
                     </button>
@@ -335,6 +343,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseNine"
                       aria-expanded="false"
                       aria-controls="flush-collapseNine"
+                      style={{backgroundColor: "#017d58"}}
                     >
                       Intensifier son approche Linkedin
                     </button>
@@ -365,6 +374,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseTen"
                       aria-expanded="false"
                       aria-controls="flush-collapseTen"
+                      style={{backgroundColor: "#017d58"}}
                     >
                       S’adapter à ses interlocuteurs
                     </button>
@@ -417,6 +427,7 @@ function Atelier() {
                 data-bs-target="#flush-collapseOne"
                 aria-expanded="false"
                 aria-controls="flush-collapseOne"
+                style={{backgroundColor: "#017d58", color:"white"}}
               >
                 <span className="text-center mx-auto">
                   <h4>Tarifs</h4>
@@ -425,10 +436,11 @@ function Atelier() {
             </h2>
             <div
               id="flush-collapseOne"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
+              style={{backgroundColor: "#017d58"}}
             >
-              <div class="container mt-4 tarifContainer ">
+              <div class="container mt-4 tarifContainer">
                 {/* <h2>Liste de Tarifs</h2> */}
                 <table class="table table-bordered table-custom custom-table">
                   <thead>
