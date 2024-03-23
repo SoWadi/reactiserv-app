@@ -414,7 +414,7 @@ function Atelier() {
 
         {/* ---------------------------------------------------------------- ACCORDION TARIFS ----------------------------------------------------------------*/}
         <div
-          class="row accordion accordion-flush m-auto m-lg-5 my-5 w-50 w-lg-25"
+          className="row accordion accordion-flush m-auto m-lg-5 my-5 w-50"
           id="accordionFlushExample"
           data-bs-theme="dark"
         >
@@ -438,7 +438,7 @@ function Atelier() {
               id="flush-collapseOne"
               className="accordion-collapse collapse"
               data-bs-parent="#accordionFlushExample"
-              style={{backgroundColor: "#017d58"}}
+              style={{backgroundColor: "#017d58", margin:"auto"}}
             >
               <div class="container mt-4 tarifContainer">
                 {/* <h2>Liste de Tarifs</h2> */}
