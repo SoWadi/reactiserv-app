@@ -31,13 +31,66 @@ function Atelier() {
         <div className="container d-flex flex-column">
           <h1 className="main-heading">Formations commerciales</h1>
           <div className="underline"></div>
-          <div className="text-center pb-5">
+          <div className="pb-5">
             <div className="mx-auto text-white w-75 py-5">
-              <p className="text-center w-100 fs-4 my-5">
+              {/*  Groupe contenu introduction */}
+              <p className="w-100 fs-4 my-5">
                 Ma mission est de vous accompagner dans la création d'un pitch
                 percutant et vous fournir les outils nécessaires pour exceller
                 dans vos prises de rendez-vous téléphoniques en toute autonomie.
               </p>
+
+              {/*  Paragraphe # : Expérience professionnelle */}
+              <p className="lh-base p-2">
+                J'ai débuté les campagnes de phoning à l'université, en tant que
+                job étudiant à l'<strong>ESSEC Business School</strong>, puis chez <strong>Direct Energie </strong> 
+                en job d'été. Pendant huit années dans le salariat, occupant des
+                postes de commercial sédentaire, ADV ou encore coordinatrice
+                commerciale, j'ai toujours été amenée à appeler les prospects,
+                susciter l'intérêt et prendre des rendez-vous qualifiés, allant
+                de la TPE aux grands comptes.
+              </p>
+
+              {/* Paragraphe 1 : Introduction */}
+              <p className="lh-base p-2">
+                Je propose des formations commerciales avec l'agence de
+                formations à la vente{" "}
+                <strong>
+                  <a
+                    className="text-warning"
+                    href="https://www.sptraining.fr/"
+                    target="_blank" rel="noreferrer" 
+                  >
+                    Stephane Perriat Training
+                  </a>
+                </strong>
+                , certifiée <strong>Qualiopi</strong>. J'anime des sessions sur la réalisation du
+                pitch et la prise de rendez-vous téléphonique, en m'appuyant sur
+                mon expérience métier.
+              </p>
+
+              {/*  Lien vers le site web de l'agence */}
+              <p className="lh-base p-2">
+                Consultez notre site web pour en savoir plus :{" "}
+                <a
+                  className="text-warning"
+                  href="https://www.sptraining.fr/"
+                  target="_blank" 
+                  rel="noreferrer" 
+                >
+                  Stephane Perriat Training
+                </a>
+              </p>
+
+              {/*  Paragraphe 2 : Offre de Coaching Phoning */}
+              <p className="lh-base p-2">
+                Mise en place de l'offre <strong>Coaching Phoning</strong>, une
+                mise en pratique post-formation: je vous accompagnerai à <strong>oser
+                prendre votre téléphone, à passer les barrages, à aller chercher
+                du rendez-vous qualifié </strong> afin de développer votre chiffre
+                d'affaires.
+              </p>
+
               <p className="mt-5">
                 Chaque programme a une durée d'une 1/2 journée et traite d'une
                 spécialité du cycle de vente:
@@ -342,7 +395,11 @@ function Atelier() {
       <div className="d-flex flex-column flex-lg-row-reverse justify-content-lg-center w-75 m-auto">
         {/* ---------------------------------------------------------------- ACCORDION TARIFS ----------------------------------------------------------------*/}
         <div className="row m-auto position-sticky">
-          <img className="mx-auto w-50 object-fit-fill" alt="sp-partner" src={spPartnerPhoto} />
+          <img
+            className="mx-auto w-50 object-fit-fill"
+            alt="sp-partner"
+            src={spPartnerPhoto}
+          />
         </div>
 
         {/* ---------------------------------------------------------------- ACCORDION TARIFS ----------------------------------------------------------------*/}

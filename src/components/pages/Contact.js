@@ -8,9 +8,8 @@ import * as yup from "yup";
 import emailjs from "@emailjs/browser";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedinIn,
-} from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+
 
 const Contact = () => {
   const schema = yup
@@ -141,7 +140,10 @@ const Contact = () => {
                 <option value="Autre">Autre</option>
               </select> */}
 
-                  <label htmlfor="message" className="label-contact text-start mt-5">
+                  <label
+                    htmlfor="message"
+                    className="label-contact text-start mt-5"
+                  >
                     {" "}
                     Message :
                   </label>
@@ -173,10 +175,13 @@ const Contact = () => {
                 <p className="mr-3 mx-3">✉️ l.avlessi@reacti-serv.com</p>
 
                 <div className="social-icons">
-                <a href="https://www.linkedin.com/company/reactiserv/">
-                  <FontAwesomeIcon icon={faLinkedinIn} className="mr-3 mx-3" />
-                </a>
-              </div>
+                  <a href="https://www.linkedin.com/company/reactiserv/">
+                    <FontAwesomeIcon
+                      icon={faLinkedinIn}
+                      className="mr-3 mx-3"
+                    />
+                  </a>
+                </div>
 
               </div>
             </div>
