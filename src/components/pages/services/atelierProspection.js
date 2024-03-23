@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./formations.css";
 import "../services/formations.css";
+import spPartnerPhoto from "../../images/spPartner.jpg";
+/* import photoLinda from "../images/AboutFoto2-removebg-preview.png"; */
 
 function Atelier() {
   return (
@@ -29,22 +31,19 @@ function Atelier() {
         <div className="container d-flex flex-column">
           <h1 className="main-heading">Formations commerciales</h1>
           <div className="underline"></div>
-          <div className="">
-            <div className="text-white w-75 py-5">
-              <p className="w-100 fs-4 mb-5">
+          <div className="text-center pb-5">
+            <div className="mx-auto text-white w-75 py-5">
+              <p className="text-center w-100 fs-4 mb-5">
                 Ma mission est de vous accompagner dans la création d'un pitch
                 percutant et vous fournir les outils nécessaires pour exceller
                 dans vos prises de rendez-vous téléphoniques en toute autonomie.
               </p>
-              <p className="">
-                Découvrez comment optimiser vos appels pour réussir à chaque
-                étape de votre parcours commercial.
-              </p>
-              <p className="">
-                Je peux vous proposer un lieu ou intervenir sur site
-                directement.
-              </p>
-
+          <div className="row justify-content-start mx-auto">
+            <img
+              className="mx-auto mt-5 w-50 object-fit-fill"
+              src={spPartnerPhoto}
+            />
+          </div>
               <p className="mt-5">
                 Chaque programme a une durée d'une 1/2 journée et traite d'une
                 spécialité du cycle de vente:
@@ -135,7 +134,7 @@ function Atelier() {
                       Objectifs : à l’issue de la formation, la personne est en
                       capacité d’identifier les réseaux nécessaires à son
                       développement commercial. De mettre en place la bonne
-                      stratégie et utiliser les bonnes pratiques. De fair.
+                      stratégie et utiliser les bonnes pratiques.
                     </div>
                   </div>
                 </div>
@@ -437,8 +436,6 @@ function Atelier() {
           </div>
         </div>
       </div>
-
-      
     </div>
   );
 }

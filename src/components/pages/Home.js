@@ -37,7 +37,7 @@ function Home() {
                   <hr className="w-25 mx-auto" />
                 </h2>
                 <h1>
-                  Formations & Accompagnement commerciale
+                  Formations & Accompagnement commercial
                   {/* Simplifier vos opérations commerciales. */}
                 </h1>
                 <div className="underline mx-auto"></div>
@@ -90,7 +90,8 @@ function Home() {
                     <div className="underline"></div>
                     <p>
                       Maximisez vos compétences de vente pour augmenter la
-                      performance de votre équipe et stimuler la croissance.
+                      performance de votre équipe et stimuler la croissance de
+                      votre entreprise.
                     </p>
                   </div>
                   <Link

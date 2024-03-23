@@ -43,9 +43,9 @@ function Aboutus() {
               <div className="col-12 col-md-6 my-5 p-auto text-white presentation">
                 <p>
                   Bonjour, je m'appelle Linda Avlessi, la gérante de REACTISERV.
-                  J'ai débuté mon parcours professionnel en septembre 2022 après
-                  huit années d'expérience en tant qu'assistante ADV Export et
-                  commerciale BtoB/BtoC.
+                  J'ai débuté mon entreprise en septembre 2022 après huit années
+                  d'expérience en tant qu'assistante ADV Export et commerciale
+                  BtoB/BtoC.
                 </p>
 
                 <p>
@@ -58,8 +58,7 @@ function Aboutus() {
                   Mes valeurs, telles que la bienveillance et l'engagement,
                   guident mon travail. Mon objectif principal est d'aider les
                   dirigeants de TPE/PME en gérant les tâches administratives et
-                  commerciales, que ce soit pendant des périodes chargées ou
-                  de flux tendus.
+                  commerciales en période de flux tendus.
                 </p>
 
                 <p>
@@ -106,21 +105,20 @@ function Aboutus() {
               </div>
             </div>
             <div class="col-md-6 mb-3 pb-3">
-            <div class="bulleUp">
-              <h5>2022</h5>
-              <div class="underline m-auto"></div>
-              <div>Création de REACTISERV</div>
+              <div class="bulleUp">
+                <h5>2022</h5>
+                <div class="underline m-auto"></div>
+                <div>Création de REACTISERV</div>
+              </div>
             </div>
           </div>
-          </div>
 
-         
           {/*       <!-- Add more columns and content for additional list items as needed --> */}
         </div>
       </section>
 
       <section class="timeline timeline-clippy timeline-rhombus col-12 text-white d-none d-md-none d-lg-block">
-      <h1 className="text-center my-5"> EN QUELQUES DATES</h1>
+        <h1 className="text-center my-5"> EN QUELQUES DATES</h1>
         <ul>
           <li>
             <div className="bulle">
@@ -134,10 +132,7 @@ function Aboutus() {
             <div className="bulle">
               <h5>2014 – 2022</h5>
               <div className="underline"></div>
-              <div>
-                Commerciale sédentaire BtoB, Assistante commerciale & ADV France
-                et Export
-              </div>
+              <div>Coordinatrice commerciale, ADV France & Export</div>
             </div>
           </li>
           <li>

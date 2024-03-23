@@ -52,7 +52,7 @@ function service1() {
               <div class="titleContainer">
                 {/* <img src="https://images.pexels.com/photos/1456268/pexels-photo-1456268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" /> */}
                 <h4 className="mt-5 p-2">
-                  Développement commercial, qualification leads, ...
+                  Développement commercial, qualification leads.
                 </h4>
               </div>
               <div class="content">
@@ -79,7 +79,7 @@ function service1() {
                 {/* <img src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" /> */}
                 <h4 className="mt-5 p-2">
                   Optimisation CRM, KPIs, analyse des
-                  ventes, ...
+                  ventes.
                 </h4>
               </div>
               <div class="content">
@@ -106,7 +106,7 @@ function service1() {
               <div class="titleContainer">
                 {/*                 <img src="https://images.pexels.com/photos/847483/pexels-photo-847483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" /> */}
                 <h4 className="mt-5 p-2">
-                  Administration des ventes en France et à l'international...
+                  Administration des ventes en France et à l'international.
                 </h4>
               </div>
               <div class="content">
@@ -137,7 +137,7 @@ function service1() {
               <div class="titleContainer">
                 {/* <img src="https://images.pexels.com/photos/847483/pexels-photo-847483.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" /> */}
                 <h4 className="mt-5 p-2">
-                  Prospection Commerciale : Développer votre clientèle ...
+                  Prospection Commerciale : Développer votre clientèle.
                 </h4>
               </div>
               <div class="content">

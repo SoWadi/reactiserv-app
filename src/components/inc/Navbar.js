@@ -69,7 +69,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/contact" className="nav-link active">
-                Me contacter
+                Contact
               </Link>
             </li>
           </ul>

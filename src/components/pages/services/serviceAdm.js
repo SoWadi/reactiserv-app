@@ -41,7 +41,7 @@ function ServiceAdm() {
           </div>
           {/*  </div> */}
         </section>
-     {/*  <section className="section mt-5">
+        {/*  <section className="section mt-5">
         <div className="container d-flex flex-column">
 
           <div className="w-75">
@@ -67,7 +67,7 @@ function ServiceAdm() {
             <div class="card d-flex position-relative flex-column col-12 col-md-12 col-lg-5 mx-auto">
               <div class="titleContainer">
                 {/* <img src="https://images.pexels.com/photos/1456268/pexels-photo-1456268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" /> */}
-                <h4 className="mt-5 p-2">Saisie de Commandes sur ERP</h4>
+                <h4 className="mt-5 p-2">Saisie de Commandes sur ERP.</h4>
               </div>
               <div class="content">
                 {/* <h2>Commerciale - Apporteur d'affaires</h2> */}
@@ -91,7 +91,7 @@ function ServiceAdm() {
             <div class="card d-flex position-relative flex-column col-12 col-md-12 col-lg-5 mx-auto">
               <div class="titleContainer">
                 {/* <img src="https://images.pexels.com/photos/1456268/pexels-photo-1456268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" /> */}
-                <h4 className="mt-5 p-2">Relances de Factures </h4>
+                <h4 className="mt-5 p-2">Relances de Factures. </h4>
               </div>
               <div class="content">
                 {/* <h2>Commerciale - Apporteur d'affaires</h2> */}
@@ -115,7 +115,7 @@ function ServiceAdm() {
             <div class="card d-flex position-relative flex-column col-12 col-md-12 col-lg-5 mx-auto">
               <div class="titleContainer">
                 {/* <img src="https://images.pexels.com/photos/1456268/pexels-photo-1456268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" /> */}
-                <h4 className="mt-5 p-2">Rédaction de Courriers</h4>
+                <h4 className="mt-5 p-2">Rédaction de Courriers.</h4>
               </div>
               <div class="content">
                 {/* <h2>Commerciale - Apporteur d'affaires</h2> */}
@@ -124,11 +124,13 @@ function ServiceAdm() {
                   Je me charge de la saisie précise et rapide des commandes clients dans votre système ERP. Cette approche permet de maintenir un contrôle strict sur vos stocks tout en améliorant la satisfaction de vos clients.
                   </li> */}
                   <li class="list-group-item bg-transparent">
-                  Ma compétence en
-              rédaction assure une communication impeccable avec vos clients.
-              Des confirmations de commandes aux réponses aux demandes, chaque
-              courrier est méticuleusement rédigé pour refléter votre
-              professionnalisme.
+                    Mon expertise en rédaction garantit une communication
+                    irréprochable avec votre clientèle. Que ce soit pour
+                    confirmer des commandes ou répondre à des demandes, chaque
+                    correspondance est soigneusement rédigée afin de refléter
+                    votre niveau de professionnalisme. Je réalise également la
+                    relecture d'emails, de courriers et de publications sur les
+                    réseaux sociaux.
                   </li>
                 </ul>
               </div>
@@ -137,7 +139,6 @@ function ServiceAdm() {
           </div>
         </div>
       </div>
-
     </div>
   );
 }
