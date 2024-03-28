@@ -1,6 +1,6 @@
 import React from "react";
 import "../pages/About.css";
-import photoLinda from "../images/AboutFoto2-removebg-preview.png";
+import photoLinda from "../images/AboutLinda.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -32,15 +32,16 @@ function Aboutus() {
           <div className="underline"></div>
           <div className="row">
             <div>
-              <div className=" ">
+             
                 <img
-                  className="col-12 col-md-12 col-lg-6 float-end  aboutLindaPhoto shadow divAnimationAbout"
+                  className="col-12 col-md-6 col-lg-6 float-end aboutLindaPhoto shadow divAnimationAbout my-sm-5"
                   src={photoLinda}
                   alt="Linda Avlessi"
-                ></img>
-              </div>
+                  style={{width:490}}
+                />
+             
 
-              <div className="col-12 col-md-6 my-5 p-auto text-white presentation">
+              <div className="col-12 col-md-6 my-5 p-auto presentation">
                 <p>
                   Bonjour, je m'appelle Linda Avlessi, la gérante de REACTISERV.
                   J'ai débuté mon entreprise en septembre 2022 après huit années
@@ -81,20 +82,20 @@ function Aboutus() {
       </section>
 
       <section
-        class="timelineUp timeline-clippy timeline-rhombus text-white m-auto my-5 d-md-block d-lg-none
+        class="timelineUp timeline-clippy timeline-rhombus m-auto my-5 d-md-block d-lg-none
 "
       >
         <div class="container">
           <div class="row">
             <h1> EN QUELQUES DATES</h1>
-            <div class="col-md-6 mb-3 pb-3">
+            <div class="col-md-6 mb-3 pb-3 text-white">
               <div class="bulleUp">
                 <h5>2013</h5>
                 <div class="underline m-auto"></div>
                 <div>Master Etudes Européennes & Relations Internationales</div>
               </div>
             </div>
-            <div class="col-md-6 mb-3 pb-3">
+            <div class="col-md-6 mb-3 pb-3 text-white">
               <div class="bulleUp">
                 <h5>2014 – 2022</h5>
                 <div class="underline m-auto"></div>
@@ -104,7 +105,7 @@ function Aboutus() {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 mb-3 pb-3">
+            <div class="col-md-6 mb-3 pb-3 text-white">
               <div class="bulleUp">
                 <h5>2022</h5>
                 <div class="underline m-auto"></div>
@@ -117,7 +118,7 @@ function Aboutus() {
         </div>
       </section>
 
-      <section class="timeline timeline-clippy timeline-rhombus col-12 text-white d-none d-md-none d-lg-block">
+      <section class="timeline timeline-clippy timeline-rhombus col-12 d-none d-md-none d-lg-block my-5">
         <h1 className="text-center my-5"> EN QUELQUES DATES</h1>
         <ul>
           <li>

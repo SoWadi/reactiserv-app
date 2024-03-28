@@ -2,24 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import LogoNav from "../images/LogoReactiserv.png";
-import {
-  faLinkedinIn,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
-import {
-  faAt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faLinkedinIn, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faAt } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
-    <section className="section footer bg-dark text-white py-4">
-      <hr></hr>
+    <section className="section footer bg-dark text-white mt-5">
+      {/* <hr/> */}
       <div className="container">
         <div className="row">
-          
           <div className="col-md-4 px-5 py-5">
             <h5>Accès rapides</h5>
-            <hr class="w-50"/>
+            <hr class="w-50" />
             <div>
               <Link to="/">Home</Link>
             </div>
@@ -52,10 +46,13 @@ function Footer() {
             <div className="col-md-12">
               <hr className="w-25" />
               <div className="social-icons">
-                <a href="https://www.linkedin.com/company/reactiserv/" target="open_blank">
+                <a
+                  href="https://www.linkedin.com/company/reactiserv/"
+                  target="open_blank"
+                >
                   <FontAwesomeIcon icon={faLinkedinIn} className="mr-3 mx-3" />
                 </a>
-{/*                 <a href="#">
+                {/*                 <a href="#">
                   <FontAwesomeIcon icon={faInstagram} className="mr-3 mx-3" />
                 </a> */}
               </div>
@@ -73,12 +70,6 @@ function Footer() {
               </Link>
             </div>
           </div>
-
-
-
-
-
-
         </div>
       </div>
     </section>

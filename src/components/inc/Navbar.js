@@ -6,7 +6,7 @@ import "../../../src/App.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <nav className="navbar navbar-expand-lg">
       <div className="container containerNav">
         {/*                     <a className="" href="/">Navbar</a> */}
         <div>

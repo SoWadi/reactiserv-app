@@ -32,7 +32,7 @@ function Atelier() {
           <h1 className="main-heading">Formations commerciales</h1>
           <div className="underline"></div>
           <div className="pb-5">
-            <div className="mx-auto text-white w-75 py-5">
+            <div className="mx-auto w-75 py-5">
               {/*  Groupe contenu introduction */}
               <p className="w-100 fs-4 my-5">
                 Ma mission est de vous accompagner dans la création d'un pitch
@@ -416,9 +416,11 @@ function Atelier() {
         <div
           className="row accordion accordion-flush m-auto m-lg-5 my-5 w-50"
           id="accordionFlushExample"
-          data-bs-theme="dark"
+          data-bs-theme="none"
         >
-          <div class="accordion-item">
+          <div class="accordion-item"
+            style={{backgroundColor:"transparent"}}
+          >
             <h2 class="accordion-header">
               <button
                 class="accordion-button collapsed text-center accordionButtonCustom"

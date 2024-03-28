@@ -27,15 +27,15 @@ function Home() {
           <li></li>
         </ul>
 
-        <section className="section my-5 divAnimation text-white">
+        <section className="section my-5 divAnimation">
           <div className="container">
             <div className="row">
               <div className="col-md-12 pb-5 my-auto text-center d-flex flex-column">
-                <h2 className="main-heading">
+                <h1 className="main-heading">
                   {" "}
                   Linda Avlessi
                   <hr className="w-25 mx-auto" />
-                </h2>
+                </h1>
                 <h1>
                   Formations & Accompagnement commercial
                   {/* Simplifier vos opérations commerciales. */}
@@ -88,7 +88,7 @@ function Home() {
                   <div className="card-body">
                     <h6>Formation commerciale</h6>
                     <div className="underline"></div>
-                    <p>
+                    <p className="text-white">
                       Maximisez vos compétences de vente pour augmenter la
                       performance de votre équipe et stimuler la croissance de
                       votre entreprise.
@@ -114,7 +114,7 @@ function Home() {
                   <div className="card-body">
                     <h6>Stratégie commerciale</h6>
                     <div className="underline"></div>
-                    <p>
+                    <p className="text-white">
                       Je vous accompagne sur la stratégie commerciale, pour une
                       croissance efficace de votre entreprise.
                     </p>
@@ -139,7 +139,7 @@ function Home() {
                   <div className="card-body">
                     <h6>Gestion administrative</h6>
                     <div className="underline"></div>
-                    <p>
+                    <p className="text-white">
                       Optimisez votre organisation grâce à mes services de
                       gestion administrative sur mesure.
                     </p>

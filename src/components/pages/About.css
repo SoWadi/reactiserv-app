@@ -69,10 +69,13 @@ p {
 .bulleUp {
   background: #0a7f50;
   padding: 2em;
+  color: white;
 }
 
 
-
+.bulle {
+  color: white;
+}
 
 .timeline ul li {
 
@@ -170,8 +173,8 @@ p {
    
   }
 
-  .bulle {
-    color: rgb(226, 195, 226);
+/*   .bulleUp {
+    color: rgb(247, 242, 247);
     
-  }
+  } */
 }
