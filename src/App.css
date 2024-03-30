@@ -29,7 +29,7 @@ a#basic-nav-dropdown:hover {
   /* color: blue; */
   border: none;
 /*   border-radius: 1px; */
-  height: 27vh;
+/*   height: 27vh; */
 /*   padding: inherit; */
   padding-top: inherit;
   padding-top: 1em;
@@ -112,7 +112,7 @@ a.dropdown-item:hover {
 } */
 
 .Cards {
-  /*  border:2px solid rgb(193, 193, 11); */
+
   height: 75vh;
   display: flex;
   flex-direction: row;
@@ -131,7 +131,7 @@ a.dropdown-item:hover {
   background-color: #096e52;
   color: #fff;
   width: 322px;
-  height: 60vh;
+/*   height: 60vh; */
   padding-bottom: 18px;
 
 }
@@ -193,12 +193,15 @@ a.dropdown-item:hover {
 ******************************************************************/
 
 
-@media (max-width: 760px) {
+@media (max-width: 460px) {
   .Cards {
     display: block;
     width: 60vw;
-    height: 200vh;
+
     margin-bottom: 2em;
+  height: auto;
+
+  padding-bottom: 12px;
   }
 
   .cardCustom {
@@ -214,6 +217,11 @@ a.dropdown-item:hover {
     margin-inline: auto;
 
   }
+/* 
+  .dropdown-menu.show {
+    height: fit-content;
+  }
+ */
 
 
 }

@@ -25,7 +25,7 @@ p {
 }
 
 .aboutLindaPhoto {
-  width: 40%;
+  /* width: 40%; */
   border-radius: 322px;
   border: 0.2px solid rgba(12, 11, 11, 0.077);
 
@@ -60,7 +60,7 @@ p {
 .timelineUp {
   position: relative;
   bottom: 0;
-  width: 400px;
+  width: auto;
   text-align: center;
 }
 

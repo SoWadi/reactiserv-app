@@ -34,7 +34,7 @@ function Aboutus() {
             <div>
              
                 <img
-                  className="col-12 col-md-6 col-lg-6 float-end aboutLindaPhoto shadow divAnimationAbout my-sm-5"
+                  className="col-12 col-md-6 col-lg-6 float-end aboutLindaPhoto shadow divAnimationAbout my-sm-5 img-fluid"
                   src={photoLinda}
                   alt="Linda Avlessi"
                   style={{width:490}}

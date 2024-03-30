@@ -43,7 +43,8 @@ function Atelier() {
               {/*  Paragraphe # : Expérience professionnelle */}
               <p className="lh-base p-2">
                 J'ai débuté les campagnes de phoning à l'université, en tant que
-                job étudiant à l'<strong>ESSEC Business School</strong>, puis chez <strong>Direct Energie </strong> 
+                job étudiant à l'<strong>ESSEC Business School</strong>, puis
+                chez <strong>Direct Energie </strong>
                 en job d'été. Pendant huit années dans le salariat, occupant des
                 postes de commercial sédentaire, ADV ou encore coordinatrice
                 commerciale, j'ai toujours été amenée à appeler les prospects,
@@ -59,14 +60,15 @@ function Atelier() {
                   <a
                     className="text-warning"
                     href="https://www.sptraining.fr/"
-                    target="_blank" rel="noreferrer" 
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Stephane Perriat Training
                   </a>
                 </strong>
-                , certifiée <strong>Qualiopi</strong>. J'anime des sessions sur la réalisation du
-                pitch et la prise de rendez-vous téléphonique, en m'appuyant sur
-                mon expérience métier.
+                , certifiée <strong>Qualiopi</strong>. J'anime des sessions sur
+                la réalisation du pitch et la prise de rendez-vous téléphonique,
+                en m'appuyant sur mon expérience métier.
               </p>
 
               {/*  Lien vers le site web de l'agence */}
@@ -75,8 +77,8 @@ function Atelier() {
                 <a
                   className="text-warning"
                   href="https://www.sptraining.fr/"
-                  target="_blank" 
-                  rel="noreferrer" 
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Stephane Perriat Training
                 </a>
@@ -85,10 +87,12 @@ function Atelier() {
               {/*  Paragraphe 2 : Offre de Coaching Phoning */}
               <p className="lh-base p-2">
                 Mise en place de l'offre <strong>Coaching Phoning</strong>, une
-                mise en pratique post-formation: je vous accompagnerai à <strong>oser
-                prendre votre téléphone, à passer les barrages, à aller chercher
-                du rendez-vous qualifié </strong> afin de développer votre chiffre
-                d'affaires.
+                mise en pratique post-formation: je vous accompagnerai à{" "}
+                <strong>
+                  oser prendre votre téléphone, à passer les barrages, à aller
+                  chercher du rendez-vous qualifié{" "}
+                </strong>{" "}
+                afin de développer votre chiffre d'affaires.
               </p>
 
               <p className="mt-5">
@@ -111,7 +115,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseOne"
                       aria-expanded="false"
                       aria-controls="flush-collapseOne"
-                      style={{backgroundColor: "#017d58"}}
+                      style={{ backgroundColor: "#017d58" }}
                     >
                       Construire efficacement son Pitch
                     </button>
@@ -141,7 +145,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseTwo"
                       aria-expanded="false"
                       aria-controls="flush-collapseTwo"
-                      style={{backgroundColor: "#017d58"}}
+                      style={{ backgroundColor: "#017d58" }}
                     >
                       Prendre RDV par téléphone
                     </button>
@@ -170,7 +174,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseThree"
                       aria-expanded="false"
                       aria-controls="flush-collapseThree"
-                      style={{backgroundColor: "#017d58"}}
+                      style={{ backgroundColor: "#017d58" }}
                     >
                       Développer son business en réseaux
                     </button>
@@ -198,7 +202,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseFour"
                       aria-expanded="false"
                       aria-controls="flush-collapseFour"
-                      style={{backgroundColor: "#017d58"}}
+                      style={{ backgroundColor: "#017d58" }}
                     >
                       Faire exprimer les besoins
                     </button>
@@ -228,7 +232,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseFive"
                       aria-expanded="false"
                       aria-controls="flush-collapseFive"
-                      style={{backgroundColor: "#017d58"}}
+                      style={{ backgroundColor: "#017d58" }}
                     >
                       Développer les besoins
                     </button>
@@ -257,7 +261,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseSix"
                       aria-expanded="false"
                       aria-controls="flush-collapseSix"
-                      style={{backgroundColor: "#017d58"}}
+                      style={{ backgroundColor: "#017d58" }}
                     >
                       Argumenter et conclure ses ventes
                     </button>
@@ -286,7 +290,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseSeven"
                       aria-expanded="false"
                       aria-controls="flush-collapseSeven"
-                      style={{backgroundColor: "#017d58"}}
+                      style={{ backgroundColor: "#017d58" }}
                     >
                       Les clés de la négociation
                     </button>
@@ -315,7 +319,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseEight"
                       aria-expanded="false"
                       aria-controls="flush-collapseEight"
-                      style={{backgroundColor: "#017d58"}}
+                      style={{ backgroundColor: "#017d58" }}
                     >
                       Optimiser son profil Linkedin
                     </button>
@@ -343,7 +347,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseNine"
                       aria-expanded="false"
                       aria-controls="flush-collapseNine"
-                      style={{backgroundColor: "#017d58"}}
+                      style={{ backgroundColor: "#017d58" }}
                     >
                       Intensifier son approche Linkedin
                     </button>
@@ -374,7 +378,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseTen"
                       aria-expanded="false"
                       aria-controls="flush-collapseTen"
-                      style={{backgroundColor: "#017d58"}}
+                      style={{ backgroundColor: "#017d58" }}
                     >
                       S’adapter à ses interlocuteurs
                     </button>
@@ -418,8 +422,9 @@ function Atelier() {
           id="accordionFlushExample"
           data-bs-theme="none"
         >
-          <div class="accordion-item"
-            style={{backgroundColor:"transparent"}}
+          <div
+            class="accordion-item"
+            style={{ backgroundColor: "transparent" }}
           >
             <h2 class="accordion-header">
               <button
@@ -429,7 +434,7 @@ function Atelier() {
                 data-bs-target="#flush-collapseOne"
                 aria-expanded="false"
                 aria-controls="flush-collapseOne"
-                style={{backgroundColor: "#017d58", color:"white"}}
+                style={{ backgroundColor: "#017d58", color: "white" }}
               >
                 <span className="text-center mx-auto">
                   <h4>Tarifs</h4>
@@ -438,77 +443,77 @@ function Atelier() {
             </h2>
             <div
               id="flush-collapseOne"
-              className="accordion-collapse collapse"
+              className="accordion-collapse collapse mt-5"
               data-bs-parent="#accordionFlushExample"
-              style={{backgroundColor: "#017d58", margin:"auto"}}
+              style={{ backgroundColor: "transparent", margin: "auto" }}
             >
-              <div class="container mt-4 tarifContainer">
-                {/* <h2>Liste de Tarifs</h2> */}
-                <table class="table table-bordered table-custom custom-table">
-                  <thead>
-                    <tr>
-                      <th>Quantité</th>
-                      <th>Tarif HT</th>
-                      <th>Tarif TTC</th>
-                    </tr>
-                  </thead>
-                  <tbody class="even">
-                    <tr>
-                      <td>1</td>
-                      <td>390,00 €</td>
-                      <td>468,00 €</td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>780,00 €</td>
-                      <td>936,00 €</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>1 170,00 €</td>
-                      <td>1 404,00 €</td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>1 560,00 €</td>
-                      <td>1 872,00 €</td>
-                    </tr>
-                    <tr>
-                      <td>5</td>
-                      <td>1 790,00 €</td>
-                      <td>2 148,00 €</td>
-                    </tr>
-                    <tr>
-                      <td>6</td>
-                      <td>2 090,00 €</td>
-                      <td>2 508,00 €</td>
-                    </tr>
-                    <tr>
-                      <td>7</td>
-                      <td>2 350,00 €</td>
-                      <td>2 820,00 €</td>
-                    </tr>
-                    <tr>
-                      <td>8</td>
-                      <td>2 610,00 €</td>
-                      <td>3 132,00 €</td>
-                    </tr>
-                    <tr>
-                      <td>9</td>
-                      <td>2 850,00 €</td>
-                      <td>3 420,00 €</td>
-                    </tr>
-                    <tr>
-                      <td>10</td>
-                      <td>3 090,00 €</td>
-                      <td>3 708,00 €</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+              {/* <h2>Liste de Tarifs</h2> */}
+              <table class="table table-bordered table-custom custom-table">
+                <thead>
+                  <tr>
+                    <th>Quantité</th>
+                    <th>Tarif HT</th>
+                    <th>Tarif TTC</th>
+                  </tr>
+                </thead>
+                <tbody class="even">
+                  <tr>
+                    <td>1</td>
+                    <td>390,00 €</td>
+                    <td>468,00 €</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>780,00 €</td>
+                    <td>936,00 €</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>1 170,00 €</td>
+                    <td>1 404,00 €</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>1 560,00 €</td>
+                    <td>1 872,00 €</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>1 790,00 €</td>
+                    <td>2 148,00 €</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>2 090,00 €</td>
+                    <td>2 508,00 €</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>2 350,00 €</td>
+                    <td>2 820,00 €</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>2 610,00 €</td>
+                    <td>3 132,00 €</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>2 850,00 €</td>
+                    <td>3 420,00 €</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>3 090,00 €</td>
+                    <td>3 708,00 €</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
+
+        
       </div>
     </div>
   );
