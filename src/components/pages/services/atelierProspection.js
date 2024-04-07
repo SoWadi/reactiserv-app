@@ -58,7 +58,7 @@ function Atelier() {
                 formations à la vente{" "}
                 <strong>
                   <a
-                    className="text-warning"
+                    className="text-success"
                     href="https://www.sptraining.fr/"
                     target="_blank"
                     rel="noreferrer"
@@ -75,12 +75,12 @@ function Atelier() {
               <p className="lh-base p-2">
                 Consultez notre site web pour en savoir plus :{" "}
                 <a
-                  className="text-warning"
-                  href="https://www.sptraining.fr/"
+                  className="text-success"
+                  href="https://www.sptraining.fr/10-programmes/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Stephane Perriat Training
+                  Stephane Perriat - descriptif des formations
                 </a>
               </p>
 
@@ -115,7 +115,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseOne"
                       aria-expanded="false"
                       aria-controls="flush-collapseOne"
-                      style={{ backgroundColor: "#017d58" }}
+                      style={{ backgroundColor: "#017d58",color: "#f3f5f2" }}
                     >
                       Construire efficacement son Pitch
                     </button>
@@ -145,7 +145,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseTwo"
                       aria-expanded="false"
                       aria-controls="flush-collapseTwo"
-                      style={{ backgroundColor: "#017d58" }}
+                      style={{ backgroundColor: "#017d58",color: "#f3f5f2" }}
                     >
                       Prendre RDV par téléphone
                     </button>
@@ -174,7 +174,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseThree"
                       aria-expanded="false"
                       aria-controls="flush-collapseThree"
-                      style={{ backgroundColor: "#017d58" }}
+                      style={{ backgroundColor: "#017d58",color: "#f3f5f2" }}
                     >
                       Développer son business en réseaux
                     </button>
@@ -202,7 +202,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseFour"
                       aria-expanded="false"
                       aria-controls="flush-collapseFour"
-                      style={{ backgroundColor: "#017d58" }}
+                      style={{ backgroundColor: "#017d58",color: "#f3f5f2" }}
                     >
                       Faire exprimer les besoins
                     </button>
@@ -232,7 +232,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseFive"
                       aria-expanded="false"
                       aria-controls="flush-collapseFive"
-                      style={{ backgroundColor: "#017d58" }}
+                      style={{ backgroundColor: "#017d58",color: "#f3f5f2" }}
                     >
                       Développer les besoins
                     </button>
@@ -261,7 +261,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseSix"
                       aria-expanded="false"
                       aria-controls="flush-collapseSix"
-                      style={{ backgroundColor: "#017d58" }}
+                      style={{ backgroundColor: "#017d58",color: "#f3f5f2" }}
                     >
                       Argumenter et conclure ses ventes
                     </button>
@@ -290,7 +290,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseSeven"
                       aria-expanded="false"
                       aria-controls="flush-collapseSeven"
-                      style={{ backgroundColor: "#017d58" }}
+                      style={{ backgroundColor: "#017d58",color: "#f3f5f2" }}
                     >
                       Les clés de la négociation
                     </button>
@@ -319,7 +319,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseEight"
                       aria-expanded="false"
                       aria-controls="flush-collapseEight"
-                      style={{ backgroundColor: "#017d58" }}
+                      style={{ backgroundColor: "#017d58",color: "#f3f5f2" }}
                     >
                       Optimiser son profil Linkedin
                     </button>
@@ -347,7 +347,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseNine"
                       aria-expanded="false"
                       aria-controls="flush-collapseNine"
-                      style={{ backgroundColor: "#017d58" }}
+                      style={{ backgroundColor: "#017d58",color: "#f3f5f2" }}
                     >
                       Intensifier son approche Linkedin
                     </button>
@@ -378,7 +378,7 @@ function Atelier() {
                       data-bs-target="#flush-collapseTen"
                       aria-expanded="false"
                       aria-controls="flush-collapseTen"
-                      style={{ backgroundColor: "#017d58" }}
+                      style={{ backgroundColor: "#017d58",color: "#f3f5f2" }}
                     >
                       S’adapter à ses interlocuteurs
                     </button>
@@ -406,19 +406,31 @@ function Atelier() {
 
       {/* -------------------------------------------------------------- ENSEMBLE TARIFS & PHOTO ----------------------------------------------------*/}
 
-      <div className="d-flex flex-column flex-lg-row-reverse justify-content-lg-center w-75 m-auto">
-        {/* ---------------------------------------------------------------- ACCORDION TARIFS ----------------------------------------------------------------*/}
+      <div className="d-flex flex-column justify-content-lg-center w-75 m-auto">
+        
+        {/* --------------------------------------------------------- ACCORDION TARIFS ---------------------------------------------------*/}
         <div className="row m-auto position-sticky">
           <img
-            className="mx-auto w-50 object-fit-fill"
+            className="col-12 mx-auto object-fit-fill"
             alt="sp-partner"
             src={spPartnerPhoto}
-          />
+            />
         </div>
-
-        {/* ---------------------------------------------------------------- ACCORDION TARIFS ----------------------------------------------------------------*/}
+        <div className="mt-5">
+            <p>
+              Nous proposons <strong>10 programmes, chacun d'une demi-journée</strong>, pour vous
+              permettre de perfectionner vos compétences clés et de développer votre
+              entreprise avec confiance. 
+              </p>
+              <p>
+              Notre offre est flexible et adaptable :
+              vous sélectionnez les programmes qui répondent à vos besoins et à vos
+              objectifs.
+              </p>
+              </div>
+        {/* -------------------------------------------------------- ACCORDION TARIFS -------------------------------------------------------*/}
         <div
-          className="row accordion accordion-flush m-auto m-lg-5 my-5 w-50"
+          className="row accordion accordion-flush m-auto my-5 w-50"
           id="accordionFlushExample"
           data-bs-theme="none"
         >
@@ -434,9 +446,9 @@ function Atelier() {
                 data-bs-target="#flush-collapseOne"
                 aria-expanded="false"
                 aria-controls="flush-collapseOne"
-                style={{ backgroundColor: "#017d58", color: "white" }}
+                style={{ backgroundColor: "#017d58", color: "#f3f5f2" }}
               >
-                <span className="text-center mx-auto">
+                <span className="text-center mx-auto" style={{width:"23em"}}>
                   <h4>Tarifs</h4>
                 </span>
               </button>
@@ -448,72 +460,59 @@ function Atelier() {
               style={{ backgroundColor: "transparent", margin: "auto" }}
             >
               {/* <h2>Liste de Tarifs</h2> */}
-              <table class="table table-bordered table-custom custom-table">
-                <thead>
+              <table class="table table-striped table-custom custom-table w-auto rounded-3 my-5">
+                <thead style={{ verticalAlign: "middle", width: "400px" }}>
                   <tr>
                     <th>Quantité</th>
                     <th>Tarif HT</th>
-                    <th>Tarif TTC</th>
                   </tr>
                 </thead>
                 <tbody class="even">
                   <tr>
-                    <td>1</td>
+                    <td>Prix pour 1 programme au choix </td>
                     <td>390,00 €</td>
-                    <td>468,00 €</td>
                   </tr>
                   <tr>
-                    <td>2</td>
+                    <td>Prix pour 2 programme au choix </td>
                     <td>780,00 €</td>
-                    <td>936,00 €</td>
                   </tr>
                   <tr>
-                    <td>3</td>
+                    <td>Prix pour 3 programme au choix </td>
                     <td>1 170,00 €</td>
-                    <td>1 404,00 €</td>
                   </tr>
                   <tr>
-                    <td>4</td>
+                    <td>Prix pour 4 programme au choix </td>
                     <td>1 560,00 €</td>
-                    <td>1 872,00 €</td>
                   </tr>
                   <tr>
-                    <td>5</td>
+                    <td>Prix pour 5 programme au choix </td>
                     <td>1 790,00 €</td>
-                    <td>2 148,00 €</td>
                   </tr>
                   <tr>
-                    <td>6</td>
+                    <td>Prix pour 6 programme au choix </td>
                     <td>2 090,00 €</td>
-                    <td>2 508,00 €</td>
                   </tr>
                   <tr>
-                    <td>7</td>
+                    <td>Prix pour 7 programme au choix </td>
                     <td>2 350,00 €</td>
-                    <td>2 820,00 €</td>
                   </tr>
                   <tr>
-                    <td>8</td>
+                    <td>Prix pour 8 programme au choix </td>
                     <td>2 610,00 €</td>
-                    <td>3 132,00 €</td>
                   </tr>
                   <tr>
-                    <td>9</td>
+                    <td>Prix pour 9 programme au choix </td>
                     <td>2 850,00 €</td>
-                    <td>3 420,00 €</td>
                   </tr>
                   <tr>
-                    <td>10</td>
+                    <td>Prix pour 10 programme au choix </td>
                     <td>3 090,00 €</td>
-                    <td>3 708,00 €</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
         </div>
-
-        
       </div>
     </div>
   );

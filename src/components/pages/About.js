@@ -88,14 +88,14 @@ function Aboutus() {
         <div class="container">
           <div class="row">
             <h1> EN QUELQUES DATES</h1>
-            <div class="col-md-6 mb-3 pb-3 text-white">
+            <div class="col-md-4 mb-3 pb-3 text-white">
               <div class="bulleUp">
                 <h5>2013</h5>
                 <div class="underline m-auto"></div>
                 <div>Master Etudes Européennes & Relations Internationales</div>
               </div>
             </div>
-            <div class="col-md-6 mb-3 pb-3 text-white">
+            <div class="col-md-4 mb-3 pb-3 text-white">
               <div class="bulleUp">
                 <h5>2014 – 2022</h5>
                 <div class="underline m-auto"></div>
@@ -105,7 +105,7 @@ function Aboutus() {
                 </div>
               </div>
             </div>
-            <div class="col-md-6 mb-3 pb-3 text-white">
+            <div class="col-md-4 mb-3 pb-3 text-white">
               <div class="bulleUp">
                 <h5>2022</h5>
                 <div class="underline m-auto"></div>

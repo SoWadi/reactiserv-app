@@ -1,31 +1,37 @@
-
-  .tarifContainer {
-
-    width: 25px;
-    padding: 2px;
-    width: fit-content;
+/*   
+  .lienSpTraining {
+    color: #096e52;
   }
-  
+   */
   table *{
     width: fit-content;
     text-align: center;
 
   }
   
+.table {
+  border-radius: 20px;
+}
+
   #flush-collapseOne {
     width: fit-content;
   } 
-
+/* 
   tr td:first-child{
 
     width: 2em;
-  }
+  } */
 
   tr:nth-child(even) {
     /* Vos styles pour les lignes paires ici */
     background-color: fuchsia;
   }
   
+  th *{
+    width: fit-content;
+    padding-block: 3em;
+
+  }
 
   .accordionButtonCustom {
     width: 25vw;
@@ -41,6 +47,11 @@
   
 
 
+  
+
+
+
+
 /****************************************************************** 
  *------------------------ MEDIA QUERY ---------------------------*
 ******************************************************************/
@@ -49,6 +60,11 @@
 @media (max-width: 760px) {
 table {
   margin-inline: -3em;
+
+  width: 17em;
+  margin: -6em;
+    margin-top: -6em;
+    margin-bottom: -6em;
 }
 
 

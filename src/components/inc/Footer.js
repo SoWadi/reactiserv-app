@@ -29,7 +29,7 @@ function Footer() {
             <hr class="w-50" />
             <div>
               <p className="text-white mb-1">
-                <span className="px-3">
+                <span className="pe-3 px-lg-3">
                   <FontAwesomeIcon icon={faWhatsapp} />
                 </span>{" "}
                 07 88 13 33 03
@@ -37,7 +37,7 @@ function Footer() {
             </div>
             <div>
               <p className="text-white mb-1">
-                <span className="px-3">
+                <span className="pe-3 px-lg-3">
                   <FontAwesomeIcon icon={faAt} />
                 </span>
                 l.avlessi@reacti-serv.com
