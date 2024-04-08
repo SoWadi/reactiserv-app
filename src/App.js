@@ -6,10 +6,10 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import ServiceX from "./components/pages/services/service1"
 import ServiceAdministratif from "./components/pages/services/serviceAdm"
-
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/inc/Footer";
 import Atelier from "./components/pages/services/atelierProspection";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -37,10 +37,10 @@ function App() {
           <Route path="/strategie-commerciale" 
           element={<ServiceX />} />
 
-          <Route path="/serviceAdm" 
+          <Route path="/service-administratif" 
           element={<ServiceAdministratif />} />
 
-          <Route path="/atelierProsp" 
+          <Route path="/formations" 
           element={<Atelier />} />
 
 

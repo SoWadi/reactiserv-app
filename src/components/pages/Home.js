@@ -95,7 +95,7 @@ function Home() {
                     </p>
                   </div>
                   <Link
-                    to="/atelierProsp"
+                    to="/formations"
                     className="ps-3 text-start enSavoirPlusCard"
                   >
                     En savoir plus{" "}
@@ -145,7 +145,7 @@ function Home() {
                     </p>
                   </div>
                   <Link
-                    to="/serviceAdm"
+                    to="/service-administratif"
                     className="ps-3 text-start enSavoirPlusCard"
                   >
                     En savoir plus{" "}

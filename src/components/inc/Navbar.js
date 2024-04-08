@@ -41,7 +41,7 @@ function Navbar() {
             >
               <NavDropdown.Item href="#service2">
                 <Link
-                  to="/atelierProsp"
+                  to="/formations"
                   className="nav-link active"
                 >
                   Formations commerciales
@@ -54,7 +54,7 @@ function Navbar() {
               </NavDropdown.Item>
 
               <NavDropdown.Item>
-                <Link to="/serviceAdm" className="nav-link active">
+                <Link to="/service-administratif" className="nav-link active">
                   Assistanat administratif
                 </Link>
               </NavDropdown.Item>
