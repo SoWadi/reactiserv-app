@@ -11,6 +11,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 
+import usePageSEO from "../../hooks/usePageSEO";
+
 const Contact = () => {
   const schema = yup
     .object({
@@ -61,6 +63,19 @@ const Contact = () => {
       })
       .catch((err) => console.error("Il y a une erreur"));
   };
+
+  usePageSEO({
+    title: "Contact",
+    description: "disponible mail et téléphone",
+    keywords:"formation commerciale contact telephone mail",
+    ogTitle:"Contact",
+    ogDescription:"Contactez moi pour des formations commerciales et accompagnement",
+    ogImage:"http://example.com/image.jpg",
+    ogUrl:"http://example.com/page1"
+
+  })
+
+
 
   return (
     <div>

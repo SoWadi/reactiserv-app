@@ -1,8 +1,22 @@
 import React from "react";
-import VMC from "../inc/Vmc";
 import "./service-commercial.css";
 
-function service1() {
+import usePageSEO from "../../../hooks/usePageSEO";
+
+function Service1() {
+
+  usePageSEO({
+    title: "Stratégie commerciale",
+    description: "Développement commercial, CRM, KPIs, ventes France et international, prospection pour expansion clientèle.",
+    keywords:"Développement commercial, CRM, KPIs, ventes, administration, prospection",
+    ogTitle:"Stratégie commerciale",
+    ogDescription:"Développement commercial, CRM, KPIs, ventes France et international, prospection pour expansion clientèle.",
+    ogImage:"http://example.com/image.jpg",
+    ogUrl:"http://example.com/page1"
+
+  })
+
+
   return (
     <div className="row my-auto">
       <section className="py-4 mb bg-success">
@@ -110,7 +124,7 @@ function service1() {
                 </h4>
               </div>
               <div class="content">
-                <h3></h3>
+                
                 <ul class="list-group list-group-flush">
                   <li class="list-group-item bg-transparent">
                     Suivi administratif
@@ -166,4 +180,4 @@ function service1() {
   );
 }
 
-export default service1;
+export default Service1;

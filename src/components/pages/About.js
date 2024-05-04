@@ -3,8 +3,24 @@ import "../pages/About.css";
 import photoLinda from "../images/AboutLinda.jpg";
 
 import { Link } from "react-router-dom";
+import usePageSEO from "../../hooks/usePageSEO";
+
 
 function Aboutus() {
+
+
+  usePageSEO({
+    title: "À propos",
+    description: "Linda Avlessi - Reactiserv",
+    keywords:"formation commerciale contact telephone mail",
+    ogTitle:"À propos",
+    ogDescription:"Contactez moi pour des formations commerciales et accompagnement",
+    ogImage:"http://example.com/image.jpg",
+    ogUrl:"http://example.com/page1"
+
+  })
+
+
   return (
     <div>
       <section className="py-4 bg-success">

@@ -1,6 +1,21 @@
 import React from "react";
 
+import usePageSEO from "../../../hooks/usePageSEO";
+
 function ServiceAdm() {
+
+  usePageSEO({
+    title: "Administratif",
+    description: "Linda Avlessi - Votre partenaire en Administration des Ventes France & Export: Saisie de commandes ERP, relances de factures, rédaction de courriers.",
+    keywords:"Développement commercial, CRM, KPIs, ventes, administration, prospection",
+    ogTitle:"Accompagnement administratif",
+    ogDescription:"Linda Avlessi - Votre partenaire en Administration des Ventes France & Export: Saisie de commandes ERP, relances de factures, rédaction de courriers.",
+    ogImage:"http://example.com/image.jpg",
+    ogUrl:"http://example.com/page1"
+
+  })
+
+
   return (
     <div className="row my-auto">
       <section className="py-4 bg-success">

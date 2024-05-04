@@ -5,7 +5,20 @@ import "../services/formations.css";
 import spPartnerPhoto from "../../images/spPartner.jpg";
 /* import photoLinda from "../images/AboutFoto2-removebg-preview.png"; */
 
+import usePageSEO from "../../../hooks/usePageSEO";
+
+
 function Atelier() {
+  usePageSEO({
+    title: "Formatrice commerciale",
+    description: "Ma mission est de vous accompagner dans la création d'un pitch percutant et vous fournir les outils nécessaires pour exceller dans vos prises de rendez-vous téléphoniques en toute autonomie.",
+    keywords:"formation commerciale prisde de rendez-vous téléphonique",
+    ogTitle:"Formatrice commerciale",
+    ogDescription:"Ma mission est de vous accompagner dans la création d'un pitch percutant et vous fournir les outils nécessaires pour exceller dans vos prises de rendez-vous téléphoniques en toute autonomie.",
+    ogImage:"http://example.com/image.jpg",
+    ogUrl:"http://example.com/page1"
+
+  })
   return (
     <div>
       <section className="py-4 mb-5 bg-success">

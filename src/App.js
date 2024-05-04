@@ -10,6 +10,7 @@ import Footer from "./components/inc/Footer";
 import Atelier from "./components/pages/services/atelierProspection";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useRoutes } from "react-router-dom";
 
 function App() {
   return (

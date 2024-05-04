@@ -6,7 +6,23 @@ import GestionAdministrative from "../images/Gestion_administrative.jpg";
 import KPIs from "../images/KPIs.jpg";
 import FormationCo from "../images/Formation.jpg";
 
+import usePageSEO from "../../hooks/usePageSEO";
+
 function Home() {
+
+
+  usePageSEO({
+    title: "Reactiserv - Formations et Accompagnement commercial",
+    description: "Reactiserv- Votre partenaire en formation, administration des Ventes France & Export",
+    keywords:"Développement commercial, CRM, KPIs, ventes, administration, prospection",
+    ogTitle:"Reactiserv - Formations et Accompagnement commercial",
+    ogDescription:"Reactiserv- Votre partenaire en formation, administration des Ventes France & Export",
+    ogImage:"http://example.com/image.jpg",
+    ogUrl:"http://example.com/page1"
+
+  })
+
+
   return (
     <div>
       {/*  <Slider /> */}
