@@ -128,6 +128,13 @@ function Aboutus() {
                 <div>Création de REACTISERV</div>
               </div>
             </div>
+            <div class="col-md-4 mb-3 pb-3 text-white">
+              <div class="bulleUp">
+                <h5>2024</h5>
+                <div class="underline m-auto"></div>
+                <div>Formation Copywriting et design thinking </div>
+              </div>
+            </div>
           </div>
 
           {/*       <!-- Add more columns and content for additional list items as needed --> */}
@@ -157,6 +164,13 @@ function Aboutus() {
               <h5>2022</h5>
               <div className="underline"></div>
               <div>Création de REACTISERV </div>
+            </div>
+          </li>
+          <li>
+            <div className="bulle">
+              <h5>2024</h5>
+              <div className="underline"></div>
+              <div>Formation Copywriting et design thinking </div>
             </div>
           </li>
 
