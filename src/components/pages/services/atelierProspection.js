@@ -25,15 +25,15 @@ function Atelier() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 my-auto">
-              <h4>Atelier de formation commerciale :</h4>
+              <h4>Nos formations commerciales</h4>
             </div>
             <div className="col-lg-6 my-auto">
               <h6 className="float-end">
                 <Link to="/home" className="text-dark">
                   {" "}
-                  Home /
+                  Accueil /
                 </Link>{" "}
-                Atelier sur la prospection commerciale
+                Nos formations commerciale
               </h6>
             </div>
           </div>
@@ -42,7 +42,7 @@ function Atelier() {
 
       <section className="section my-5">
         <div className="container d-flex flex-column">
-          <h1 className="main-heading">Formations commerciales</h1>
+          <h1 className="main-heading">Nos formations commerciales</h1>
           <div className="underline"></div>
           <div className="pb-5">
             <div className="mx-auto w-75 py-5">

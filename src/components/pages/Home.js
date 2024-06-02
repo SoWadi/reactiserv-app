@@ -9,19 +9,18 @@ import FormationCo from "../images/Formation.jpg";
 import usePageSEO from "../../hooks/usePageSEO";
 
 function Home() {
-
-
   usePageSEO({
     title: "Reactiserv - Formations et Accompagnement commercial",
-    description: "Reactiserv- Votre partenaire en formation, administration des Ventes France & Export",
-    keywords:"Développement commercial, CRM, KPIs, ventes, administration, prospection",
-    ogTitle:"Reactiserv - Formations et Accompagnement commercial",
-    ogDescription:"Reactiserv- Votre partenaire en formation, administration des Ventes France & Export",
-    ogImage:"http://example.com/image.jpg",
-    ogUrl:"http://example.com/page1"
-
-  })
-
+    description:
+      "Reactiserv- Votre partenaire en formation, administration des Ventes France & Export",
+    keywords:
+      "Développement commercial, CRM, KPIs, ventes, administration, prospection",
+    ogTitle: "Reactiserv - Formations et Accompagnement commercial",
+    ogDescription:
+      "Reactiserv- Votre partenaire en formation, administration des Ventes France & Export",
+    ogImage: "http://example.com/image.jpg",
+    ogUrl: "http://example.com/page1",
+  });
 
   return (
     <div>
@@ -47,13 +46,13 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="col-md-12 pb-5 my-auto text-center d-flex flex-column">
-                <h1 className="main-heading">
-                  {" "}
+                {/* <h1 className="main-heading">
+                  
                   Linda Avlessi
                   <hr className="w-25 mx-auto" />
-                </h1>
+                </h1> */}
                 <h1>
-                  Formations & Accompagnement commercial
+                  Conseil en strategie commerciale et formation à la vente
                   {/* Simplifier vos opérations commerciales. */}
                 </h1>
                 <div className="underline mx-auto"></div>
@@ -143,7 +142,7 @@ function Home() {
                   </Link>
                 </div>
               </div>
-              <div className="col-md-4 cardCustom align-self-end zoomCards">
+              {/*  <div className="col-md-4 cardCustom align-self-end zoomCards">
                 <div className="card shadow">
                   <div className="divGestAdm">
                     <img
@@ -167,8 +166,21 @@ function Home() {
                     En savoir plus{" "}
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
+
+            {/* <div className="linkedinWidget mt-5">
+              <h1 className="m-5"> Mon actu:</h1>
+              <iframe
+                src="https://a20f1c757d10487a8a5c5d9017db1c89.elf.site"
+                width="100%"
+                height="400"
+                frameborder="0"
+              ></iframe>
+            </div>
+ */}
+            {/*       <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-a20f1c75-7d10-487a-8a5c-5d9017db1c89" data-elfsight-app-lazy></div> */}
           </div>
         </div>
       </section>

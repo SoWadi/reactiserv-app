@@ -15,10 +15,10 @@ function Footer() {
             <h5>Accès rapides</h5>
             <hr class="w-50" />
             <div>
-              <Link to="/">Home</Link>
+              <Link to="/">Accueil</Link>
             </div>
             <div>
-              <Link to="/about">About</Link>
+              <Link to="/about">À propos</Link>
             </div>
             <div>
               <Link to="/contact">Contact</Link>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./service-commercial.css";
 
 import usePageSEO from "../../../hooks/usePageSEO";
@@ -26,7 +27,14 @@ function Service1() {
               <h4>Accompagnement sur la stratégie commerciale</h4>
             </div>
             <div className="col-lg-6 col-md-8 my-auto">
-              <h6 className="float-end">Home / Stratégie commerciale</h6>
+              <h6 className="float-end">
+                <Link to="/home" className="text-dark">
+                  {" "}
+                  Accueil /
+                </Link>{" "}
+                
+                / Stratégie commerciale
+                </h6>
             </div>
           </div>
         </div>

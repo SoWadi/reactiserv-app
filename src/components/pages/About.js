@@ -27,15 +27,15 @@ function Aboutus() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-4 my-auto w-50">
-              <h4>About</h4>
+              <h4>À propos</h4>
             </div>
             <div className="col-lg-6 col-md-8 my-auto w-50">
               <h6 className="float-end">
                 <Link to="/home" className="text-dark">
                   {" "}
-                  Home /
+                  Accueil /
                 </Link>{" "}
-                About
+                À propos
               </h6>
             </div>
           </div>
@@ -180,6 +180,9 @@ function Aboutus() {
 
       {/* Our Vision, mission and value*/}
       {/*  <VMC /> */}
+
+
+
     </div>
   );
 }

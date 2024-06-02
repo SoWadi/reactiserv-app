@@ -33,8 +33,13 @@ function Navbar() {
                 Accueil
               </Link>
             </li>
+            <li className="nav-item navLink">
+              <Link to="/formations" className="nav-link active">
+              Nos formations
+              </Link>
+            </li>
 
-            <NavDropdown
+            {/* <NavDropdown
               className="border border-0"
               title="Services"
               id="basic-nav-dropdown"
@@ -59,12 +64,19 @@ function Navbar() {
                 </Link>
               </NavDropdown.Item>
 
-              {/* <NavDropdown.Divider /> */}
             </NavDropdown>
+ */}
+
+            <li className="nav-item">
+              <Link to="/strategie-commerciale" className="nav-link active">
+              Stratégie commerciale
+              </Link>
+            </li>
+
 
             <li className="nav-item">
               <Link to="/about" className="nav-link active">
-                Qui suis-je?
+                À propos
               </Link>
             </li>
             <li className="nav-item">
@@ -72,6 +84,9 @@ function Navbar() {
                 Contact
               </Link>
             </li>
+
+
+          
           </ul>
         </div>
       </div>
