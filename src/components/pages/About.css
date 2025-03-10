@@ -149,7 +149,12 @@ p {
 
 
 
-
+h1 {
+  height: 24vh;
+  /* border: 1px solid red; */
+  padding-top: 8vh;
+  font-weight: 300;
+}
 
 
 

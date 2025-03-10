@@ -1,9 +1,22 @@
 p {
   font-size: 16px;
-      color: rgb(11, 29, 11);
+  color: rgb(11, 29, 11);
 }
 
+a {
+  text-decoration: none;
+}
 /* -------------------------------------- NAVBAR ---------------------------------------*/
+
+.navbar {
+  display: flex;
+  flex-direction: column-reverse;
+/*   position: sticky;
+  top: 0;
+  overflow: hidden; */
+  background-color: #e1e9e5;
+  box-shadow: 3px 3px 11px #3a3a3a2e;
+}
 
 .nav-item {
   padding-inline: 2em;
@@ -24,15 +37,27 @@ a#basic-nav-dropdown:hover {
   color: rgb(230, 26, 26);
 } */
 
+
+
+
 .dropdown-menu.show {
-  background-color: rgba(254, 254, 254, 0.973);
-  /* color: blue; */
+  height: auto;
+  background-color: #e1e9e5;
+  color: blue;
   border: none;
-/*   border-radius: 1px; */
-/*   height: 27vh; */
-/*   padding: inherit; */
+  border-radius: 4px;
+  padding: 11px;
+  padding-top: 11px;
   padding-top: inherit;
   padding-top: 1em;
+  box-shadow: -1px 9px 10px -1px rgba(0, 0, 0, 0.13);
+  opacity: 99%;
+  border-radius: 2%;
+  margin-left: -44px;
+
+  -webkit-box-shadow: -1px 9px 10px -1px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: -1px 9px 10px -1px rgba(0, 0, 0, 0.13);
+  box-shadow: -1px 9px 10px -1px rgba(0, 0, 0, 0.13);
 }
 
 a.dropdown-item:hover {
@@ -45,6 +70,9 @@ a.dropdown-item:hover {
 
 }
 
+img {
+  width: 140px;
+}
 /* -------------------------------------- ANIMATION WELCOMING PAGE ---------------------------------------*/
 
 .divAnimation {
@@ -71,11 +99,14 @@ a.dropdown-item:hover {
 }
 
 .enSavoirPlusBtn {
-  box-shadow: 10px 10px;
-  background: #63bf7c
+  background: #82cb97;
     /* #a3ffc3 */
   ;
   color: #162029ed;
+  border-radius: 50px;
+  height: 44px;
+  box-shadow: 3px 3px 11px #3a3a3a63;
+  text-decoration: none;
 
 }
 
@@ -90,7 +121,7 @@ a.dropdown-item:hover {
 }
 
 .main-heading {
-  color: rgb(99, 191, 124);
+  color: #096e52;
   /* font-size: 26px; */
 }
 
@@ -101,7 +132,7 @@ a.dropdown-item:hover {
 .underline {
   height: 4px;
   width: 4rem;
-  background-color: rgb(99, 191, 124);
+  background-color: #096e52;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -111,15 +142,18 @@ a.dropdown-item:hover {
 
 } */
 
+h6 {
+  font-weight: bolder;
+}
 .Cards {
 
   height: 75vh;
   display: flex;
   flex-direction: row;
-  
-
 
 }
+
+
 
 .Cards .cardCustom {
   padding: 15px;
@@ -131,7 +165,7 @@ a.dropdown-item:hover {
   background-color: #096e52;
   color: #fff;
   width: 322px;
-/*   height: 60vh; */
+  /*   height: 60vh; */
   padding-bottom: 18px;
 
 }
@@ -144,10 +178,11 @@ a.dropdown-item:hover {
 
 .zoomCards {
   padding: 50px;
-  transition: transform .2s;
+  transition: transform .4s ease-in-out;
   /* Animation */
   /*   width: 200px;
   height: 200px; */
+  
   margin: 0 auto;
 }
 
@@ -170,11 +205,29 @@ a.dropdown-item:hover {
 }
 
 .enSavoirPlusCard {
-  color: rgb(249, 251, 250);
+  background: #82cb97;
+  color: #162029ed;
+  border-radius: 50px;
+  height: 44px;
+  box-shadow: 3px 3px 11px #3a3a3a63;
+  width: 140px;
+/*   color: rgb(249, 251, 250);
+  border: 1px solid fuchsia;
+  background-color: #4b007e; */
+  height: 32px;
+  margin-inline-start: 1em;
+  border-radius: 32px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .enSavoirPlusCard:hover {
-  color: rgb(99, 191, 124);
+  background-color: rgb(255, 255, 255);
 }
 
 .footer a {
@@ -187,23 +240,24 @@ a.dropdown-item:hover {
 }
 
 .linkedinWidget {
-  overflow:visible;
+  overflow: visible;
 }
 
 /****************************************************************** 
  *------------------------ MEDIA QUERY ---------------------------*
 ******************************************************************/
 
-
-@media (max-width: 460px) {
+@media (max-width: 1200px) {
   .Cards {
-    display: block;
-    width: 60vw;
-
+    /* display:contents; */
+    flex-direction: column;
+    width: 10vw;
+/*     border: 1px solid rgb(255, 47, 241);
+    background-color: yellow; */
     margin-bottom: 2em;
-  height: auto;
+    height: auto;
 
-  padding-bottom: 12px;
+    padding-bottom: 12px;
   }
 
   .cardCustom {
@@ -215,18 +269,46 @@ a.dropdown-item:hover {
 
   .cardCustom>.card {
     width: 77%;
-    padding: 2%;
+    /* padding: 2%; */
     margin-inline: auto;
 
   }
-/* 
+}
+
+@media (max-width: 560px) {
+  .Cards {
+    /* display:contents; */
+    flex-direction: column;
+    width: 10vw;
+/*     border: 1px solid rgb(255, 47, 241);
+    background-color: yellow; */
+    margin-bottom: 2em;
+    height: auto;
+
+    padding-bottom: 12px;
+  }
+
+  .cardCustom {
+    /*     display: flex; */
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .cardCustom>.card {
+    width: 77%;
+    margin-inline: auto;
+
+  }
+
+  /* 
   .dropdown-menu.show {
     height: fit-content;
   }
  */
 
- .footer {
-  padding: 0px;
- }
+  .footer {
+    padding: 0px;
+  }
 
 }

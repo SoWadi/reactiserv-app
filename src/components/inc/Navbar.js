@@ -6,12 +6,12 @@ import "../../../src/App.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg border-bottom border-success-subtle sticky-top">
       <div className="container containerNav">
         {/*                     <a className="" href="/">Navbar</a> */}
-        <div>
+        <div className="LogoNav">
           <Link to="/" className="navbar-brand">
-            <img className="LogoNav" src={LogoNav} alt="Reactiserv"></img>
+            <img src={LogoNav} alt="Reactiserv"></img>
           </Link>
         </div>
         <button
@@ -33,15 +33,15 @@ function Navbar() {
                 Accueil
               </Link>
             </li>
-            <li className="nav-item navLink">
+            {/* <li className="nav-item navLink">
               <Link to="/formations" className="nav-link active">
               Nos formations
               </Link>
-            </li>
+            </li> */}
 
-            {/* <NavDropdown
+            <NavDropdown
               className="border border-0"
-              title="Services"
+              title="Nos solutions"
               id="basic-nav-dropdown"
             >
               <NavDropdown.Item href="#service2">
@@ -65,13 +65,13 @@ function Navbar() {
               </NavDropdown.Item>
 
             </NavDropdown>
- */}
 
-            <li className="nav-item">
+
+{/*             <li className="nav-item">
               <Link to="/strategie-commerciale" className="nav-link active">
               Stratégie commerciale
               </Link>
-            </li>
+            </li> */}
 
 
             <li className="nav-item">

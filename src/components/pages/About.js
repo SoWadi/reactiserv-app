@@ -103,7 +103,9 @@ function Aboutus() {
       >
         <div class="container">
           <div class="row">
-            <h1> EN QUELQUES DATES</h1>
+            <div className="my-5 fw-bold">
+            <h1 className="my-5"> EN QUELQUES DATES</h1>
+            </div>
             <div class="col-md-4 mb-3 pb-3 text-white">
               <div class="bulleUp">
                 <h5>2013</h5>

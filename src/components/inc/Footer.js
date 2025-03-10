@@ -29,18 +29,18 @@ function Footer() {
             <hr class="w-50" />
             <div>
               <p className="text-white mb-1">
-                <span className="pe-3 px-lg-3">
+                <span className="">
                   <FontAwesomeIcon icon={faWhatsapp} />
                 </span>{" "}
-                07 88 13 33 03
+                +337 11 11 22 33
               </p>
             </div>
             <div>
               <p className="text-white mb-1">
-                <span className="pe-3 px-lg-3">
+                <span className="">
                   <FontAwesomeIcon icon={faAt} />
                 </span>
-                l.avlessi@reacti-serv.com
+                l.contact@gmail.com
               </p>
             </div>
             <div className="col-md-12">
@@ -50,7 +50,7 @@ function Footer() {
                   href="https://www.linkedin.com/company/reactiserv/"
                   target="open_blank"
                 >
-                  <FontAwesomeIcon icon={faLinkedinIn} className="mr-3 mx-3" />
+                  <FontAwesomeIcon icon={faLinkedinIn} className="mr-3" />
                 </a>
                 {/*                 <a href="#">
                   <FontAwesomeIcon icon={faInstagram} className="mr-3 mx-3" />

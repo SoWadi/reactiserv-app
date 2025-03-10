@@ -1,6 +1,8 @@
 import React from "react";
 import "./animatedSquare.css";
 
+import VMC from "./incVMC/Vmc";
+
 import { Link } from "react-router-dom";
 import GestionAdministrative from "../images/Gestion_administrative.jpg";
 import KPIs from "../images/KPIs.jpg";
@@ -23,7 +25,7 @@ function Home() {
   });
 
   return (
-    <div>
+    <div  id="hero">
       {/*  <Slider /> */}
 
       {/*      <div className="divAnimation"></div> */}
@@ -43,9 +45,9 @@ function Home() {
         </ul>
 
         <section className="section my-5 divAnimation">
-          <div className="container">
+          <div className="container" >
             <div className="row">
-              <div className="col-md-12 pb-5 my-auto text-center d-flex flex-column">
+              <div className="col-md-12 py-5 my-auto text-center d-flex flex-column">
                 {/* <h1 className="main-heading">
                   
                   Linda Avlessi
@@ -79,20 +81,17 @@ function Home() {
           </div>
         </section>
       </div>
-      {/* Our Vision, mission and value*/}
-      {/* <VMC /> */}
-
-      {/* Our services */}
+      {/* <section>{<VMC />}</section> */}
       <section className="section mb-5" id="more-services">
         <div className="container">
           <div className="row">
             <div className="col-md-12 mb-4 text-center mt-5">
-              <h3 className="main-heading">Services</h3>
+              <h3 className="main-heading">Nos solutions</h3>
               <div className="underline mx-auto"></div>
             </div>
 
             <div className="Cards">
-              <div className="col-md-4 cardCustom align-self-start zoomCards">
+              <div className="cardCustom align-self-lg-start zoomCards">
                 <div className="card shadow">
                   <img
                     src={FormationCo}
@@ -111,14 +110,14 @@ function Home() {
                   </div>
                   <Link
                     to="/formations"
-                    className="ps-3 text-start enSavoirPlusCard"
+                    className="enSavoirPlusCard"
                   >
                     En savoir plus{" "}
                   </Link>
                 </div>
               </div>
 
-              <div className="col-md-4 cardCustom align-self-center zoomCards">
+              <div className="cardCustom align-self-lg-center zoomCards">
                 <div className="card shadow">
                   <img
                     src={KPIs}
@@ -136,13 +135,13 @@ function Home() {
                   </div>
                   <Link
                     to="/strategie-commerciale"
-                    className="ps-3 text-start enSavoirPlusCard"
+                    className="enSavoirPlusCard"
                   >
                     En savoir plus{" "}
                   </Link>
                 </div>
               </div>
-              {/*  <div className="col-md-4 cardCustom align-self-end zoomCards">
+              <div className="cardCustom align-self-lg-end zoomCards">
                 <div className="card shadow">
                   <div className="divGestAdm">
                     <img
@@ -161,12 +160,12 @@ function Home() {
                   </div>
                   <Link
                     to="/service-administratif"
-                    className="ps-3 text-start enSavoirPlusCard"
+                    className="enSavoirPlusCard"
                   >
                     En savoir plus{" "}
                   </Link>
                 </div>
-              </div> */}
+              </div>
             </div>
 
             {/* <div className="linkedinWidget mt-5">
@@ -184,6 +183,15 @@ function Home() {
           </div>
         </div>
       </section>
+<div className="d-flex my-5 h-75">
+      <a
+                  className="my-auto mx-auto py-2 px-4 my-5 enSavoirPlusBtn"
+                  href="#hero"
+                >
+                  {" "}
+                  Retour en haut de page
+                </a>{" "}
+                </div>
     </div>
   );
 }

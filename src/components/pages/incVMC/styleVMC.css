@@ -1,0 +1,7 @@
+.vmcBody {
+    background-color:rgb(9, 110, 82);
+    padding-block: 1em;
+
+    border-top: 1em solid rgb(99, 191, 124);
+    border-bottom: 1em solid rgb(99, 191, 124);;
+}
