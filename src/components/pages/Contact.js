@@ -186,11 +186,11 @@ const Contact = () => {
             <div className="col-md-4 my-auto">
               <div className="my-auto contactInfos">
                 <h5 className="mb-4">Linda Avlessi</h5>
-                <p className="mr-3 mx-3"> 📞 07 88 13 33 03</p>
-                <p className="mr-3 mx-3">✉️ l.avlessi@reacti-serv.com</p>
+                <p className="mr-3 mx-3"> 📞 +337 11 11 22 33</p>
+                <p className="mr-3 mx-3">✉️ l.contact@gmail.com</p>
 
                 <div className="social-icons">
-                  <a href="https://www.linkedin.com/company/reactiserv/">
+                  <a href="https://www.linkedin.com/in/sonia-ouadhi/">
                     <FontAwesomeIcon
                       icon={faLinkedinIn}
                       className="mr-3 mx-3"

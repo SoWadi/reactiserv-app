@@ -170,7 +170,7 @@ h1 {
 
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1000px) {
 
   .timeline ul {
     /* background-color: rgba(0, 255, 255, 0.33); */
